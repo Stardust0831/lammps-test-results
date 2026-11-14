@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "Unit Tests sai-mpi-gpu-regression",
+    "generated": "2026-11-13T21:24:35Z",
+    "properties": {
+      "commit": "54ce036d5198a7f54fd924dd04cd299e4af1a4a4",
+      "site": "SAI",
+      "upstream_source_git_info": "Git info (develop / 54ce036d5198a7f54fd924dd04cd299e4af1a4a4)",
+      "binary_git_info": "Git info (HEAD / 54ce036d-modified)",
+      "binary_modified": "True",
+      "source_repository": "https://github.com/lammps/lammps",
+      "test_kind": "MPI/GPU numerical regression",
+      "controller_sha": "2335b1a54713c2205a1d0c75dcfb399aa77fdddb",
+      "image_sha256": "fbba92b667a4040655f72edc8abb8249f2bf74d476339a95e7376e8bf115a6b3",
+      "runtime_environment": "{\"UCX_TLS\": \"^cuda_ipc\"}",
+      "report_url": "https://stardust0831.github.io/lammps/",
+      "action_url": "https://github.com/Stardust0831/lammps/actions/runs/43509297263",
+      "hardware": "{\"compiler\": \"Compiler: GNU C++ 14.3.0 with OpenMP 4.5\", \"mpi\": \"mpirun (Open MPI) 5.0.10\\n\\nReport bugs to https://www.open-mpi.org/community/help/\", \"nodes\": [{\"affinity\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79], \"cpu\": \"AMD Ryzen Threadripper PRO 5995WX 64-Cores\", \"devices\": [{\"driver\": \"550.163.01\", \"index\": \"0\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-9e4dac7a-3e2d-b7f5-b181-035991be95df\"}, {\"driver\": \"550.163.01\", \"index\": \"1\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-f7f396f1-f472-39b0-ee0f-8d6a49d55a14\"}, {\"driver\": \"550.163.01\", \"index\": \"2\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-25b4bf5f-d197-2601-dea7-c523b5916e47\"}, {\"driver\": \"550.163.01\", \"index\": \"3\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-220f3dc3-7740-276b-9922-68e676e4cf18\"}], \"logical_cpus\": \"128\", \"node\": \"16v100n65\", \"operating_system\": \"Linux 16v100n65.mr-sai.ai 5.15.0-100-generic #110-Ubuntu SMP Wed Feb 7 13:27:48 UTC 2024 x86_64\"}, {\"affinity\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79], \"cpu\": \"AMD Ryzen Threadripper PRO 5995WX 64-Cores\", \"devices\": [{\"driver\": \"550.163.01\", \"index\": \"0\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-c017bb8f-44d3-3e3e-3d61-4b73b2bb0568\"}, {\"driver\": \"550.163.01\", \"index\": \"1\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-e4186782-048b-8292-e92c-9da7eb606c79\"}, {\"driver\": \"550.163.01\", \"index\": \"2\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-99be0d47-c0ce-7fa3-c85a-3942923acde8\"}, {\"driver\": \"550.163.01\", \"index\": \"3\", \"name\": \"Tesla V100-SXM2-16GB\", \"uuid\": \"GPU-cf115798-e19a-dde4-9fdc-149de07f145f\"}], \"logical_cpus\": \"128\", \"node\": \"16v100n66\", \"operating_system\": \"Linux 16v100n66.mr-sai.ai 5.15.0-100-generic #110-Ubuntu SMP Wed Feb 7 13:27:48 UTC 2024 x86_64\"}], \"operating_system\": \"Linux 16v100n65.mr-sai.ai 5.15.0-100-generic #110-Ubuntu SMP Wed Feb 7 13:27:48 UTC 2024 x86_64\", \"partition\": \"16V100\", \"threads_per_rank\": 1}",
+      "operating_system": "Linux 16v100n65.mr-sai.ai 5.15.0-100-generic #110-Ubuntu SMP Wed Feb 7 13:27:48 UTC 2024 x86_64",
+      "compiler": "Compiler: GNU C++ 14.3.0 with OpenMP 4.5",
+      "testsuite": "SAI MPI CUDA regression"
+    },
+    "counts": {
+      "tests": 19,
+      "passed": 19,
+      "failed": 0,
+      "error": 0,
+      "runtest": 0,
+      "skipped": 0,
+      "time": 83.851788
+    },
+    "branch": "develop",
+    "version": "Git info (HEAD / 54ce036d-modified)",
+    "sha": "54ce036d5198a7f54fd924dd04cd299e4af1a4a4",
+    "source_url": "https://raw.githubusercontent.com/Stardust0831/lammps/sai-multigpu-reports/junit.xml"
+  },
+  "tests": {
+    "SAI.LAMMPS.MPI.CUDA/provenance": {
+      "status": "passed",
+      "time": 0.0,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-cpu-1": {
+      "status": "passed",
+      "time": 2.363026,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-gpu-1": {
+      "status": "passed",
+      "time": 2.437576,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-gpu-2": {
+      "status": "passed",
+      "time": 3.051447,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-gpu-4": {
+      "status": "passed",
+      "time": 3.039313,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-gpu-8-2nodes": {
+      "status": "passed",
+      "time": 16.858065,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-kokkos-1": {
+      "status": "passed",
+      "time": 2.592052,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-kokkos-2": {
+      "status": "passed",
+      "time": 3.015623,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-kokkos-4": {
+      "status": "passed",
+      "time": 3.214623,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/lj-kokkos-8-2nodes": {
+      "status": "passed",
+      "time": 4.605904,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-cpu-1": {
+      "status": "passed",
+      "time": 2.492578,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-gpu-1": {
+      "status": "passed",
+      "time": 2.511698,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-gpu-2": {
+      "status": "passed",
+      "time": 2.88253,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-gpu-4": {
+      "status": "passed",
+      "time": 3.273129,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-gpu-8-2nodes": {
+      "status": "passed",
+      "time": 12.217466,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-kokkos-1": {
+      "status": "passed",
+      "time": 3.668371,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-kokkos-2": {
+      "status": "passed",
+      "time": 4.972914,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-kokkos-4": {
+      "status": "passed",
+      "time": 3.578421,
+      "message": ""
+    },
+    "SAI.LAMMPS.MPI.CUDA/pppm-kokkos-8-2nodes": {
+      "status": "passed",
+      "time": 7.077052,
+      "message": ""
+    }
+  }
+}
