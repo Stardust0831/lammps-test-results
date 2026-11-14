@@ -1,8 +1,14 @@
 {
-  "generated": "2026-11-13T19:58:49Z",
+  "generated": "2026-11-14T11:43:12Z",
   "repo": "lammps/lammps",
   "branches": {
     "develop": [
+      {
+        "timestamp": "2026-11-14T02:07:55Z",
+        "type": "pr_merge",
+        "before": "54ce036d5198a7f54fd924dd04cd299e4af1a4a4",
+        "after": "68b557e3a2148ea9b31dda5b55800215fb8be677"
+      },
       {
         "timestamp": "2026-11-13T17:30:58Z",
         "type": "pr_merge",
@@ -596,12 +602,6 @@
         "type": "pr_merge",
         "before": "dd3a636488ed394909b63744918dc13da1f11467",
         "after": "bac6be8f29cac9083a92edd2ad31f2974c40fdf7"
-      },
-      {
-        "timestamp": "2026-08-25T01:03:52Z",
-        "type": "pr_merge",
-        "before": "be87dab6278d567fe7eb6f2e2034ebad73fde03e",
-        "after": "dd3a636488ed394909b63744918dc13da1f11467"
       }
     ]
   }

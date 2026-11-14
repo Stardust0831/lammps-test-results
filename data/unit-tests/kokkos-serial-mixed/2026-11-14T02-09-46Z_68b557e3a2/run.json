@@ -1,0 +1,5779 @@
+{
+  "metadata": {
+    "title": "Unit Tests kokkos-serial-mixed",
+    "generated": "2026-11-14T02:09:46Z",
+    "properties": {
+      "hostname": "c05"
+    },
+    "counts": {
+      "tests": 1151,
+      "passed": 1151,
+      "failed": 0,
+      "error": 0,
+      "runtest": 0,
+      "skipped": 0,
+      "time": 315.29662601999956
+    },
+    "sha": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+    "branch": "develop",
+    "run_url": "https://ci.lammps.org/#/builders/11/builds/24",
+    "source_url": "https://ci.lammps.org/api/v2/builds/1247/steps/ctest/logs/junit/raw"
+  },
+  "tests": {
+    "RunLammps": {
+      "status": "passed",
+      "time": 0.0247214,
+      "message": ""
+    },
+    "HelpMessage": {
+      "status": "passed",
+      "time": 0.0257589,
+      "message": ""
+    },
+    "InvalidFlag": {
+      "status": "passed",
+      "time": 0.0224877,
+      "message": ""
+    },
+    "Tokenizer": {
+      "status": "passed",
+      "time": 0.0186596,
+      "message": ""
+    },
+    "STLReader": {
+      "status": "passed",
+      "time": 0.0193715,
+      "message": ""
+    },
+    "MemPool": {
+      "status": "passed",
+      "time": 0.0221967,
+      "message": ""
+    },
+    "LmpType": {
+      "status": "passed",
+      "time": 0.0189966,
+      "message": ""
+    },
+    "NbodyBigint": {
+      "status": "passed",
+      "time": 0.019494,
+      "message": ""
+    },
+    "ArgUtils": {
+      "status": "passed",
+      "time": 0.01862,
+      "message": ""
+    },
+    "Utils": {
+      "status": "passed",
+      "time": 0.0203057,
+      "message": ""
+    },
+    "Platform": {
+      "status": "passed",
+      "time": 1.19971,
+      "message": ""
+    },
+    "FmtLib": {
+      "status": "passed",
+      "time": 0.0187446,
+      "message": ""
+    },
+    "Sprintf": {
+      "status": "passed",
+      "time": 0.0192282,
+      "message": ""
+    },
+    "JSON": {
+      "status": "passed",
+      "time": 0.018534,
+      "message": ""
+    },
+    "MathEigen": {
+      "status": "passed",
+      "time": 0.00213815,
+      "message": ""
+    },
+    "FFT3D": {
+      "status": "passed",
+      "time": 0.169869,
+      "message": ""
+    },
+    "FFT3DKokkos": {
+      "status": "passed",
+      "time": 0.173579,
+      "message": ""
+    },
+    "MathExtraSuperellipsoids": {
+      "status": "passed",
+      "time": 0.0209054,
+      "message": ""
+    },
+    "MathExtra": {
+      "status": "passed",
+      "time": 0.0185361,
+      "message": ""
+    },
+    "MathSpecial": {
+      "status": "passed",
+      "time": 0.0228096,
+      "message": ""
+    },
+    "Random": {
+      "status": "passed",
+      "time": 0.0306343,
+      "message": ""
+    },
+    "TabularFunction": {
+      "status": "passed",
+      "time": 0.0219384,
+      "message": ""
+    },
+    "AtomStyles": {
+      "status": "passed",
+      "time": 0.0732715,
+      "message": ""
+    },
+    "AtomStylesKokkos": {
+      "status": "passed",
+      "time": 0.116259,
+      "message": ""
+    },
+    "ImageFlags": {
+      "status": "passed",
+      "time": 0.0277191,
+      "message": ""
+    },
+    "ImageFlagsKokkos": {
+      "status": "passed",
+      "time": 0.0330101,
+      "message": ""
+    },
+    "InputConvert": {
+      "status": "passed",
+      "time": 0.0328499,
+      "message": ""
+    },
+    "MoleculeFile": {
+      "status": "passed",
+      "time": 0.0513703,
+      "message": ""
+    },
+    "MoleculeFileKokkos": {
+      "status": "passed",
+      "time": 0.0540338,
+      "message": ""
+    },
+    "PairUnitConvert": {
+      "status": "passed",
+      "time": 0.567698,
+      "message": ""
+    },
+    "PotentialFileReader": {
+      "status": "passed",
+      "time": 0.024184,
+      "message": ""
+    },
+    "EIMPotentialFileReader": {
+      "status": "passed",
+      "time": 0.0250497,
+      "message": ""
+    },
+    "VTKWriter": {
+      "status": "passed",
+      "time": 0.0211883,
+      "message": ""
+    },
+    "TextFileReader": {
+      "status": "passed",
+      "time": 0.0198348,
+      "message": ""
+    },
+    "FileOperations": {
+      "status": "passed",
+      "time": 0.0418899,
+      "message": ""
+    },
+    "FileOperationsKokkos": {
+      "status": "passed",
+      "time": 0.0599944,
+      "message": ""
+    },
+    "DumpAtom": {
+      "status": "passed",
+      "time": 0.0692529,
+      "message": ""
+    },
+    "DumpAtomKokkos": {
+      "status": "passed",
+      "time": 0.46993,
+      "message": ""
+    },
+    "DumpCustom": {
+      "status": "passed",
+      "time": 0.0411018,
+      "message": ""
+    },
+    "DumpCustomKokkos": {
+      "status": "passed",
+      "time": 0.177176,
+      "message": ""
+    },
+    "DumpKokkosTriclinicPbc": {
+      "status": "passed",
+      "time": 0.067594,
+      "message": ""
+    },
+    "DumpCfg": {
+      "status": "passed",
+      "time": 0.0302127,
+      "message": ""
+    },
+    "DumpCfgKokkos": {
+      "status": "passed",
+      "time": 0.0479775,
+      "message": ""
+    },
+    "DumpLocal": {
+      "status": "passed",
+      "time": 0.0357762,
+      "message": ""
+    },
+    "DumpLocalKokkos": {
+      "status": "passed",
+      "time": 0.051415,
+      "message": ""
+    },
+    "DumpGrid": {
+      "status": "passed",
+      "time": 0.0398754,
+      "message": ""
+    },
+    "DumpGridKokkos": {
+      "status": "passed",
+      "time": 0.0869713,
+      "message": ""
+    },
+    "SimpleCommands": {
+      "status": "passed",
+      "time": 0.078154,
+      "message": ""
+    },
+    "SimpleCommandsKokkos": {
+      "status": "passed",
+      "time": 0.0820045,
+      "message": ""
+    },
+    "LatticeRegion": {
+      "status": "passed",
+      "time": 0.0337959,
+      "message": ""
+    },
+    "LatticeRegionKokkos": {
+      "status": "passed",
+      "time": 0.0471767,
+      "message": ""
+    },
+    "FixSpringChunk": {
+      "status": "passed",
+      "time": 0.0241314,
+      "message": ""
+    },
+    "FixSpringChunkKokkos": {
+      "status": "passed",
+      "time": 0.0223482,
+      "message": ""
+    },
+    "TSpin": {
+      "status": "passed",
+      "time": 0.0660246,
+      "message": ""
+    },
+    "KSpaceAutoSlab": {
+      "status": "passed",
+      "time": 0.59772,
+      "message": ""
+    },
+    "KSpaceAutoSlabKokkos": {
+      "status": "passed",
+      "time": 0.526961,
+      "message": ""
+    },
+    "KSpaceGroupGroupSlab": {
+      "status": "passed",
+      "time": 2.88486,
+      "message": ""
+    },
+    "KSpaceGroupGroupSlabKokkos": {
+      "status": "passed",
+      "time": 0.0405139,
+      "message": ""
+    },
+    "Groups": {
+      "status": "passed",
+      "time": 0.0492464,
+      "message": ""
+    },
+    "GroupsKokkos": {
+      "status": "passed",
+      "time": 0.106394,
+      "message": ""
+    },
+    "Regions": {
+      "status": "passed",
+      "time": 0.0306061,
+      "message": ""
+    },
+    "RegionsKokkos": {
+      "status": "passed",
+      "time": 0.0320419,
+      "message": ""
+    },
+    "InfoCommand": {
+      "status": "passed",
+      "time": 0.0432688,
+      "message": ""
+    },
+    "InfoCommandKokkos": {
+      "status": "passed",
+      "time": 0.0662397,
+      "message": ""
+    },
+    "ThermoCommands": {
+      "status": "passed",
+      "time": 0.0491082,
+      "message": ""
+    },
+    "ThermoCommandsKokkos": {
+      "status": "passed",
+      "time": 0.188458,
+      "message": ""
+    },
+    "DeleteAtoms": {
+      "status": "passed",
+      "time": 0.0287749,
+      "message": ""
+    },
+    "DeleteAtomsKokkos": {
+      "status": "passed",
+      "time": 0.0306618,
+      "message": ""
+    },
+    "SetProperty": {
+      "status": "passed",
+      "time": 0.0339565,
+      "message": ""
+    },
+    "SetPropertyKokkos": {
+      "status": "passed",
+      "time": 0.0660326,
+      "message": ""
+    },
+    "PairLubricatePoly": {
+      "status": "passed",
+      "time": 0.02761,
+      "message": ""
+    },
+    "PairBrownianPoly": {
+      "status": "passed",
+      "time": 0.0305575,
+      "message": ""
+    },
+    "PairLDD": {
+      "status": "passed",
+      "time": 0.022512,
+      "message": ""
+    },
+    "PairLDDKokkos": {
+      "status": "passed",
+      "time": 0.0224814,
+      "message": ""
+    },
+    "PairBodyGranular": {
+      "status": "passed",
+      "time": 0.0236933,
+      "message": ""
+    },
+    "Labelmap": {
+      "status": "passed",
+      "time": 0.0345514,
+      "message": ""
+    },
+    "LabelmapKokkos": {
+      "status": "passed",
+      "time": 0.0372672,
+      "message": ""
+    },
+    "ComputeFrenkel": {
+      "status": "passed",
+      "time": 0.148264,
+      "message": ""
+    },
+    "ComputeFrenkelKokkos": {
+      "status": "passed",
+      "time": 0.180842,
+      "message": ""
+    },
+    "ComputePeratomGroup": {
+      "status": "passed",
+      "time": 0.305302,
+      "message": ""
+    },
+    "ComputePeratomGroupKokkos": {
+      "status": "passed",
+      "time": 0.408582,
+      "message": ""
+    },
+    "Variables": {
+      "status": "passed",
+      "time": 0.0542924,
+      "message": ""
+    },
+    "VariablesKokkos": {
+      "status": "passed",
+      "time": 0.06793,
+      "message": ""
+    },
+    "KimCommands": {
+      "status": "passed",
+      "time": 0.023736,
+      "message": ""
+    },
+    "ResetAtoms": {
+      "status": "passed",
+      "time": 0.0516895,
+      "message": ""
+    },
+    "ResetAtomsKokkos": {
+      "status": "passed",
+      "time": 0.0869405,
+      "message": ""
+    },
+    "ComputeGlobal": {
+      "status": "passed",
+      "time": 0.0417928,
+      "message": ""
+    },
+    "ComputeGlobalKokkos": {
+      "status": "passed",
+      "time": 0.0871997,
+      "message": ""
+    },
+    "ComputeChunk": {
+      "status": "passed",
+      "time": 0.0511479,
+      "message": ""
+    },
+    "ComputeChunkKokkos": {
+      "status": "passed",
+      "time": 0.116456,
+      "message": ""
+    },
+    "FixHalt": {
+      "status": "passed",
+      "time": 0.0368096,
+      "message": ""
+    },
+    "FixHaltKokkos": {
+      "status": "passed",
+      "time": 0.0955221,
+      "message": ""
+    },
+    "PhononCommands": {
+      "status": "passed",
+      "time": 0.0272558,
+      "message": ""
+    },
+    "PhononCommandsKokkos": {
+      "status": "passed",
+      "time": 0.099543,
+      "message": ""
+    },
+    "ComputePACE": {
+      "status": "passed",
+      "time": 1.97634,
+      "message": ""
+    },
+    "ReaxFFOutput": {
+      "status": "passed",
+      "time": 0.0853112,
+      "message": ""
+    },
+    "ReaxFFOutputKokkos": {
+      "status": "passed",
+      "time": 0.109055,
+      "message": ""
+    },
+    "QEqSubgroup": {
+      "status": "passed",
+      "time": 0.0453263,
+      "message": ""
+    },
+    "QEqSubgroupKokkos": {
+      "status": "passed",
+      "time": 0.0495811,
+      "message": ""
+    },
+    "RestartSettings": {
+      "status": "passed",
+      "time": 0.0268422,
+      "message": ""
+    },
+    "RestartSettingsKokkos": {
+      "status": "passed",
+      "time": 0.0249061,
+      "message": ""
+    },
+    "InputValidation": {
+      "status": "passed",
+      "time": 0.0244667,
+      "message": ""
+    },
+    "InputValidationKokkos": {
+      "status": "passed",
+      "time": 0.0262867,
+      "message": ""
+    },
+    "RerunExamples": {
+      "status": "passed",
+      "time": 1.39903,
+      "message": ""
+    },
+    "DiffuseExamples": {
+      "status": "passed",
+      "time": 0.0797614,
+      "message": ""
+    },
+    "ElasticExamples": {
+      "status": "passed",
+      "time": 0.166499,
+      "message": ""
+    },
+    "ElasticTExamples": {
+      "status": "passed",
+      "time": 14.337,
+      "message": ""
+    },
+    "HeatExamples": {
+      "status": "passed",
+      "time": 21.263,
+      "message": ""
+    },
+    "KappaExamples": {
+      "status": "passed",
+      "time": 7.89566,
+      "message": ""
+    },
+    "ViscosityExamples": {
+      "status": "passed",
+      "time": 0.895344,
+      "message": ""
+    },
+    "MCLoopExamples": {
+      "status": "passed",
+      "time": 0.0283508,
+      "message": ""
+    },
+    "LibraryOpen": {
+      "status": "passed",
+      "time": 0.022534,
+      "message": ""
+    },
+    "LibraryCommands": {
+      "status": "passed",
+      "time": 0.0230441,
+      "message": ""
+    },
+    "LibraryExternal": {
+      "status": "passed",
+      "time": 0.0779175,
+      "message": ""
+    },
+    "LibraryProperties": {
+      "status": "passed",
+      "time": 0.109875,
+      "message": ""
+    },
+    "LibraryObjects": {
+      "status": "passed",
+      "time": 0.0374347,
+      "message": ""
+    },
+    "LibraryScatterGather": {
+      "status": "passed",
+      "time": 0.0430809,
+      "message": ""
+    },
+    "LibraryConfig": {
+      "status": "passed",
+      "time": 0.0244061,
+      "message": ""
+    },
+    "LammpsClass": {
+      "status": "passed",
+      "time": 0.0214637,
+      "message": ""
+    },
+    "InputClass": {
+      "status": "passed",
+      "time": 0.0213764,
+      "message": ""
+    },
+    "AdvancedUtils": {
+      "status": "passed",
+      "time": 0.0280108,
+      "message": ""
+    },
+    "ErrorClass": {
+      "status": "passed",
+      "time": 0.0219865,
+      "message": ""
+    },
+    "KSpaceStyles": {
+      "status": "passed",
+      "time": 6.80412,
+      "message": ""
+    },
+    "NeighborClass": {
+      "status": "passed",
+      "time": 0.210989,
+      "message": ""
+    },
+    "ModifyClass": {
+      "status": "passed",
+      "time": 0.0457726,
+      "message": ""
+    },
+    "ModifyClassKokkos": {
+      "status": "passed",
+      "time": 0.416148,
+      "message": ""
+    },
+    "ErrorStats": {
+      "status": "passed",
+      "time": 0.00232997,
+      "message": ""
+    },
+    "MolPairStyle:beck": {
+      "status": "passed",
+      "time": 0.180971,
+      "message": ""
+    },
+    "MolPairStyle:born": {
+      "status": "passed",
+      "time": 0.183258,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_dsf": {
+      "status": "passed",
+      "time": 0.183734,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_dsf_cs": {
+      "status": "passed",
+      "time": 0.190504,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_long": {
+      "status": "passed",
+      "time": 0.193826,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_long_cs": {
+      "status": "passed",
+      "time": 0.184579,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_long_cs_coreshell": {
+      "status": "passed",
+      "time": 0.184498,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_msm": {
+      "status": "passed",
+      "time": 0.181643,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_msm_table": {
+      "status": "passed",
+      "time": 0.237486,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_table": {
+      "status": "passed",
+      "time": 0.390552,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_table_cs": {
+      "status": "passed",
+      "time": 0.375364,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_wolf": {
+      "status": "passed",
+      "time": 0.182923,
+      "message": ""
+    },
+    "MolPairStyle:born_coul_wolf_cs": {
+      "status": "passed",
+      "time": 0.184305,
+      "message": ""
+    },
+    "MolPairStyle:bpm_spring": {
+      "status": "passed",
+      "time": 0.0259537,
+      "message": ""
+    },
+    "MolPairStyle:bpm_spring_anharmonic": {
+      "status": "passed",
+      "time": 0.0240203,
+      "message": ""
+    },
+    "MolPairStyle:buck": {
+      "status": "passed",
+      "time": 0.179704,
+      "message": ""
+    },
+    "MolPairStyle:buck6d_coul_gauss_dsf": {
+      "status": "passed",
+      "time": 0.187438,
+      "message": ""
+    },
+    "MolPairStyle:buck6d_coul_gauss_long": {
+      "status": "passed",
+      "time": 0.18964,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_cut": {
+      "status": "passed",
+      "time": 0.181696,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_long": {
+      "status": "passed",
+      "time": 0.191331,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_long_cs": {
+      "status": "passed",
+      "time": 0.187622,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_long_cs_coreshell": {
+      "status": "passed",
+      "time": 0.180873,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_msm": {
+      "status": "passed",
+      "time": 0.139936,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_msm_table": {
+      "status": "passed",
+      "time": 0.195511,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_table": {
+      "status": "passed",
+      "time": 0.393066,
+      "message": ""
+    },
+    "MolPairStyle:buck_coul_table_cs": {
+      "status": "passed",
+      "time": 0.380744,
+      "message": ""
+    },
+    "MolPairStyle:buck_long_coul_long": {
+      "status": "passed",
+      "time": 0.0675897,
+      "message": ""
+    },
+    "MolPairStyle:buck_long_coul_off": {
+      "status": "passed",
+      "time": 0.0653746,
+      "message": ""
+    },
+    "MolPairStyle:buck_long_cut_coul_long": {
+      "status": "passed",
+      "time": 0.0689329,
+      "message": ""
+    },
+    "MolPairStyle:buck_mdf": {
+      "status": "passed",
+      "time": 0.184144,
+      "message": ""
+    },
+    "MolPairStyle:buck_table_coul_long": {
+      "status": "passed",
+      "time": 0.165719,
+      "message": ""
+    },
+    "MolPairStyle:buck_table_coul_off": {
+      "status": "passed",
+      "time": 0.167162,
+      "message": ""
+    },
+    "MolPairStyle:buck_table_coul_table": {
+      "status": "passed",
+      "time": 0.403036,
+      "message": ""
+    },
+    "MolPairStyle:cosine_squared": {
+      "status": "passed",
+      "time": 0.189171,
+      "message": ""
+    },
+    "MolPairStyle:coul_ctip": {
+      "status": "passed",
+      "time": 0.178818,
+      "message": ""
+    },
+    "MolPairStyle:coul_cut": {
+      "status": "passed",
+      "time": 0.189402,
+      "message": ""
+    },
+    "MolPairStyle:coul_cut_dielectric": {
+      "status": "passed",
+      "time": 0.0266427,
+      "message": ""
+    },
+    "MolPairStyle:coul_cut_global": {
+      "status": "passed",
+      "time": 0.182836,
+      "message": ""
+    },
+    "MolPairStyle:coul_cut_soft": {
+      "status": "passed",
+      "time": 0.19401,
+      "message": ""
+    },
+    "MolPairStyle:coul_cut_soft_gapsys": {
+      "status": "passed",
+      "time": 0.196551,
+      "message": ""
+    },
+    "MolPairStyle:coul_debye": {
+      "status": "passed",
+      "time": 0.188016,
+      "message": ""
+    },
+    "MolPairStyle:coul_diel": {
+      "status": "passed",
+      "time": 0.186274,
+      "message": ""
+    },
+    "MolPairStyle:coul_dsf": {
+      "status": "passed",
+      "time": 0.191981,
+      "message": ""
+    },
+    "MolPairStyle:coul_esp": {
+      "status": "passed",
+      "time": 0.823806,
+      "message": ""
+    },
+    "MolPairStyle:coul_exclude": {
+      "status": "passed",
+      "time": 0.061068,
+      "message": ""
+    },
+    "MolPairStyle:coul_long": {
+      "status": "passed",
+      "time": 0.194623,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_cs": {
+      "status": "passed",
+      "time": 0.18651,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_cs_coreshell": {
+      "status": "passed",
+      "time": 0.182242,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_cs_scaled": {
+      "status": "passed",
+      "time": 0.198443,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_dielectric": {
+      "status": "passed",
+      "time": 0.0265574,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_manytypes": {
+      "status": "passed",
+      "time": 0.189918,
+      "message": ""
+    },
+    "MolPairStyle:coul_long_soft": {
+      "status": "passed",
+      "time": 0.193916,
+      "message": ""
+    },
+    "MolPairStyle:coul_msm": {
+      "status": "passed",
+      "time": 0.186725,
+      "message": ""
+    },
+    "MolPairStyle:coul_msm_table": {
+      "status": "passed",
+      "time": 0.247059,
+      "message": ""
+    },
+    "MolPairStyle:coul_shield": {
+      "status": "passed",
+      "time": 0.194157,
+      "message": ""
+    },
+    "MolPairStyle:coul_slater_cut": {
+      "status": "passed",
+      "time": 0.189877,
+      "message": ""
+    },
+    "MolPairStyle:coul_slater_long": {
+      "status": "passed",
+      "time": 0.190267,
+      "message": ""
+    },
+    "MolPairStyle:coul_streitz_long": {
+      "status": "passed",
+      "time": 0.0632008,
+      "message": ""
+    },
+    "MolPairStyle:coul_streitz_wolf": {
+      "status": "passed",
+      "time": 0.0622266,
+      "message": ""
+    },
+    "MolPairStyle:coul_table": {
+      "status": "passed",
+      "time": 0.413197,
+      "message": ""
+    },
+    "MolPairStyle:coul_table_cs": {
+      "status": "passed",
+      "time": 0.4061,
+      "message": ""
+    },
+    "MolPairStyle:coul_table_dielectric": {
+      "status": "passed",
+      "time": 0.0268519,
+      "message": ""
+    },
+    "MolPairStyle:coul_tt": {
+      "status": "passed",
+      "time": 0.0271326,
+      "message": ""
+    },
+    "MolPairStyle:coul_wolf": {
+      "status": "passed",
+      "time": 0.188694,
+      "message": ""
+    },
+    "MolPairStyle:coul_wolf_cs": {
+      "status": "passed",
+      "time": 0.187345,
+      "message": ""
+    },
+    "MolPairStyle:dpd": {
+      "status": "passed",
+      "time": 0.0565998,
+      "message": ""
+    },
+    "MolPairStyle:dpd_coul_slater_long": {
+      "status": "passed",
+      "time": 0.0560888,
+      "message": ""
+    },
+    "MolPairStyle:dpd_ext": {
+      "status": "passed",
+      "time": 0.0586982,
+      "message": ""
+    },
+    "MolPairStyle:dpd_ext_t0": {
+      "status": "passed",
+      "time": 0.133975,
+      "message": ""
+    },
+    "MolPairStyle:dpd_ext_tstat": {
+      "status": "passed",
+      "time": 0.0557217,
+      "message": ""
+    },
+    "MolPairStyle:dpd_ext_tstat_t0": {
+      "status": "passed",
+      "time": 0.12927,
+      "message": ""
+    },
+    "MolPairStyle:dpd_fdt": {
+      "status": "passed",
+      "time": 0.0449197,
+      "message": ""
+    },
+    "MolPairStyle:dpd_fdt_energy": {
+      "status": "passed",
+      "time": 0.0413811,
+      "message": ""
+    },
+    "MolPairStyle:dpd_fdt_nosplit": {
+      "status": "passed",
+      "time": 0.0377963,
+      "message": ""
+    },
+    "MolPairStyle:dpd_t0": {
+      "status": "passed",
+      "time": 0.129818,
+      "message": ""
+    },
+    "MolPairStyle:dpd_tstat": {
+      "status": "passed",
+      "time": 0.0526631,
+      "message": ""
+    },
+    "MolPairStyle:dpd_tstat_t0": {
+      "status": "passed",
+      "time": 0.130971,
+      "message": ""
+    },
+    "MolPairStyle:e3b": {
+      "status": "passed",
+      "time": 0.0649654,
+      "message": ""
+    },
+    "MolPairStyle:exp6_rx": {
+      "status": "passed",
+      "time": 0.347766,
+      "message": ""
+    },
+    "MolPairStyle:gauss": {
+      "status": "passed",
+      "time": 0.186258,
+      "message": ""
+    },
+    "MolPairStyle:gauss_cut": {
+      "status": "passed",
+      "time": 0.19011,
+      "message": ""
+    },
+    "MolPairStyle:harmonic_cut": {
+      "status": "passed",
+      "time": 0.178686,
+      "message": ""
+    },
+    "MolPairStyle:hbond_dreiding_lj": {
+      "status": "passed",
+      "time": 0.0614502,
+      "message": ""
+    },
+    "MolPairStyle:hbond_dreiding_lj_angleoffset": {
+      "status": "passed",
+      "time": 0.0624317,
+      "message": ""
+    },
+    "MolPairStyle:hbond_dreiding_morse": {
+      "status": "passed",
+      "time": 0.0640795,
+      "message": ""
+    },
+    "MolPairStyle:hbond_dreiding_morse_angleoffset": {
+      "status": "passed",
+      "time": 0.0612518,
+      "message": ""
+    },
+    "MolPairStyle:hybrid-overlay": {
+      "status": "passed",
+      "time": 0.196351,
+      "message": ""
+    },
+    "MolPairStyle:hybrid-scaled": {
+      "status": "passed",
+      "time": 0.199823,
+      "message": ""
+    },
+    "MolPairStyle:hybrid": {
+      "status": "passed",
+      "time": 0.202113,
+      "message": ""
+    },
+    "MolPairStyle:hybrid_dsf_wolf": {
+      "status": "passed",
+      "time": 0.209417,
+      "message": ""
+    },
+    "MolPairStyle:hybrid_molecular": {
+      "status": "passed",
+      "time": 0.0760893,
+      "message": ""
+    },
+    "MolPairStyle:hybrid_molecular_lj_morse": {
+      "status": "passed",
+      "time": 0.0697887,
+      "message": ""
+    },
+    "MolPairStyle:hybrid_multiple": {
+      "status": "passed",
+      "time": 0.200652,
+      "message": ""
+    },
+    "MolPairStyle:hybrid_tip4p_long": {
+      "status": "passed",
+      "time": 0.168684,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-constant": {
+      "status": "passed",
+      "time": 0.0262279,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-linear": {
+      "status": "passed",
+      "time": 0.0267654,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-mdpd": {
+      "status": "passed",
+      "time": 0.0263781,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-noforce": {
+      "status": "passed",
+      "time": 0.0256237,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-quadratic": {
+      "status": "passed",
+      "time": 0.0241263,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-tablelin": {
+      "status": "passed",
+      "time": 0.0256439,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LD-tablespline": {
+      "status": "passed",
+      "time": 0.0235444,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LDINDSET1-EXCL": {
+      "status": "passed",
+      "time": 0.02268,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LDINDSET1": {
+      "status": "passed",
+      "time": 0.0264631,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LDINDSET2-EXCL": {
+      "status": "passed",
+      "time": 0.0254134,
+      "message": ""
+    },
+    "MolPairStyle:ldd-LDINDSET2": {
+      "status": "passed",
+      "time": 0.0230766,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-constant": {
+      "status": "passed",
+      "time": 0.0251851,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-linear": {
+      "status": "passed",
+      "time": 0.0251563,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-mdpd": {
+      "status": "passed",
+      "time": 0.0244349,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-quadratic": {
+      "status": "passed",
+      "time": 0.0253495,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-tablelin": {
+      "status": "passed",
+      "time": 0.025318,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SG-tablespline": {
+      "status": "passed",
+      "time": 0.0245827,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-constant": {
+      "status": "passed",
+      "time": 0.0263729,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-linear": {
+      "status": "passed",
+      "time": 0.0252934,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-mdpd": {
+      "status": "passed",
+      "time": 0.0230111,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-quadratic": {
+      "status": "passed",
+      "time": 0.0249938,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-tablelin": {
+      "status": "passed",
+      "time": 0.0250211,
+      "message": ""
+    },
+    "MolPairStyle:ldd-SGLD-tablespline": {
+      "status": "passed",
+      "time": 0.0242802,
+      "message": ""
+    },
+    "MolPairStyle:lennard_mdf": {
+      "status": "passed",
+      "time": 0.192111,
+      "message": ""
+    },
+    "MolPairStyle:lepton": {
+      "status": "passed",
+      "time": 0.0255581,
+      "message": ""
+    },
+    "MolPairStyle:lepton_coul": {
+      "status": "passed",
+      "time": 0.0234248,
+      "message": ""
+    },
+    "MolPairStyle:lepton_coul_long": {
+      "status": "passed",
+      "time": 0.0263013,
+      "message": ""
+    },
+    "MolPairStyle:lepton_zbl": {
+      "status": "passed",
+      "time": 0.02632,
+      "message": ""
+    },
+    "MolPairStyle:lj96_cut": {
+      "status": "passed",
+      "time": 0.188411,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_charmm": {
+      "status": "passed",
+      "time": 0.188476,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_charmm_implicit": {
+      "status": "passed",
+      "time": 0.188384,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_long": {
+      "status": "passed",
+      "time": 0.197046,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_long_soft": {
+      "status": "passed",
+      "time": 0.197993,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_long_soft_bonds": {
+      "status": "passed",
+      "time": 0.207315,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_msm": {
+      "status": "passed",
+      "time": 0.214594,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_msm_table": {
+      "status": "passed",
+      "time": 0.273605,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmm_coul_table": {
+      "status": "passed",
+      "time": 0.422136,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmmfsw_coul_charmmfsw": {
+      "status": "passed",
+      "time": 0.192154,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmmfsw_coul_long": {
+      "status": "passed",
+      "time": 0.197483,
+      "message": ""
+    },
+    "MolPairStyle:lj_charmmfsw_coul_table": {
+      "status": "passed",
+      "time": 0.428825,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2": {
+      "status": "passed",
+      "time": 0.192353,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_cut": {
+      "status": "passed",
+      "time": 0.191314,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_cut_soft": {
+      "status": "passed",
+      "time": 0.188675,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_cut_soft_gapsys": {
+      "status": "passed",
+      "time": 0.190459,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_long": {
+      "status": "passed",
+      "time": 0.196149,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_long_cs": {
+      "status": "passed",
+      "time": 0.192552,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_long_cs_coreshell": {
+      "status": "passed",
+      "time": 0.18362,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_long_soft": {
+      "status": "passed",
+      "time": 0.193006,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_table": {
+      "status": "passed",
+      "time": 0.421511,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_coul_table_cs": {
+      "status": "passed",
+      "time": 0.390765,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_soft": {
+      "status": "passed",
+      "time": 0.196739,
+      "message": ""
+    },
+    "MolPairStyle:lj_class2_soft_gapsys": {
+      "status": "passed",
+      "time": 0.192405,
+      "message": ""
+    },
+    "MolPairStyle:lj_cubic": {
+      "status": "passed",
+      "time": 0.186684,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut": {
+      "status": "passed",
+      "time": 0.190022,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_cut": {
+      "status": "passed",
+      "time": 0.190397,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_cut_dielectric": {
+      "status": "passed",
+      "time": 0.0271882,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_cut_soft": {
+      "status": "passed",
+      "time": 0.190525,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_cut_soft_gapsys": {
+      "status": "passed",
+      "time": 0.194491,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_debye": {
+      "status": "passed",
+      "time": 0.189741,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_debye_dielectric": {
+      "status": "passed",
+      "time": 0.027473,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_dsf": {
+      "status": "passed",
+      "time": 0.191503,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_esp": {
+      "status": "passed",
+      "time": 0.830924,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long": {
+      "status": "passed",
+      "time": 0.195534,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long_cs": {
+      "status": "passed",
+      "time": 0.187757,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long_cs_coreshell": {
+      "status": "passed",
+      "time": 0.185005,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long_dielectric": {
+      "status": "passed",
+      "time": 0.0260301,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long_soft": {
+      "status": "passed",
+      "time": 0.193559,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_long_soft_bonds": {
+      "status": "passed",
+      "time": 0.206842,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_msm": {
+      "status": "passed",
+      "time": 0.210455,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_msm_dielectric": {
+      "status": "passed",
+      "time": 0.0265693,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_msm_table": {
+      "status": "passed",
+      "time": 0.285372,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_table": {
+      "status": "passed",
+      "time": 0.428024,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_table_cs": {
+      "status": "passed",
+      "time": 0.392166,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_table_dielectric": {
+      "status": "passed",
+      "time": 0.0271104,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_coul_wolf": {
+      "status": "passed",
+      "time": 0.19245,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_dipole_cut": {
+      "status": "passed",
+      "time": 0.284868,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_dipole_long": {
+      "status": "passed",
+      "time": 0.0728486,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_soft": {
+      "status": "passed",
+      "time": 0.190831,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_soft_gapsys": {
+      "status": "passed",
+      "time": 0.192979,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_thole_long_coreshell": {
+      "status": "passed",
+      "time": 0.0255624,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_tip4p_cut": {
+      "status": "passed",
+      "time": 0.131416,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_tip4p_long": {
+      "status": "passed",
+      "time": 0.158532,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_tip4p_long_soft": {
+      "status": "passed",
+      "time": 0.155052,
+      "message": ""
+    },
+    "MolPairStyle:lj_cut_tip4p_table": {
+      "status": "passed",
+      "time": 0.312711,
+      "message": ""
+    },
+    "MolPairStyle:lj_expand": {
+      "status": "passed",
+      "time": 0.192148,
+      "message": ""
+    },
+    "MolPairStyle:lj_expand_coul_long": {
+      "status": "passed",
+      "time": 0.203839,
+      "message": ""
+    },
+    "MolPairStyle:lj_expand_coul_table": {
+      "status": "passed",
+      "time": 0.436612,
+      "message": ""
+    },
+    "MolPairStyle:lj_gromacs": {
+      "status": "passed",
+      "time": 0.194198,
+      "message": ""
+    },
+    "MolPairStyle:lj_gromacs_coul_gromacs": {
+      "status": "passed",
+      "time": 0.189821,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_coul_long": {
+      "status": "passed",
+      "time": 0.0699434,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_coul_long_dielectric": {
+      "status": "passed",
+      "time": 0.0272101,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_coul_off": {
+      "status": "passed",
+      "time": 0.0691935,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_cut_coul_long": {
+      "status": "passed",
+      "time": 0.0707708,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_cut_dipole_long": {
+      "status": "passed",
+      "time": 0.0705803,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_cut_tip4p_long": {
+      "status": "passed",
+      "time": 0.0902377,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_dipole_long": {
+      "status": "passed",
+      "time": 0.0693578,
+      "message": ""
+    },
+    "MolPairStyle:lj_long_tip4p_long": {
+      "status": "passed",
+      "time": 3.26097,
+      "message": ""
+    },
+    "MolPairStyle:lj_mdf": {
+      "status": "passed",
+      "time": 0.186518,
+      "message": ""
+    },
+    "MolPairStyle:lj_pirani": {
+      "status": "passed",
+      "time": 0.194689,
+      "message": ""
+    },
+    "MolPairStyle:lj_sf_dipole_sf": {
+      "status": "passed",
+      "time": 0.283914,
+      "message": ""
+    },
+    "MolPairStyle:lj_smooth": {
+      "status": "passed",
+      "time": 0.1915,
+      "message": ""
+    },
+    "MolPairStyle:lj_smooth_linear": {
+      "status": "passed",
+      "time": 0.193639,
+      "message": ""
+    },
+    "MolPairStyle:lj_spica": {
+      "status": "passed",
+      "time": 0.187904,
+      "message": ""
+    },
+    "MolPairStyle:lj_spica_coul_long": {
+      "status": "passed",
+      "time": 0.192127,
+      "message": ""
+    },
+    "MolPairStyle:lj_spica_coul_msm": {
+      "status": "passed",
+      "time": 0.386455,
+      "message": ""
+    },
+    "MolPairStyle:lj_spica_coul_msm_table": {
+      "status": "passed",
+      "time": 0.507701,
+      "message": ""
+    },
+    "MolPairStyle:lj_spica_coul_table": {
+      "status": "passed",
+      "time": 0.404154,
+      "message": ""
+    },
+    "MolPairStyle:lj_switch3_coulgauss_long": {
+      "status": "passed",
+      "time": 0.195809,
+      "message": ""
+    },
+    "MolPairStyle:lj_switch3_coulgauss_table": {
+      "status": "passed",
+      "time": 0.178185,
+      "message": ""
+    },
+    "MolPairStyle:lj_table_coul_long": {
+      "status": "passed",
+      "time": 0.163807,
+      "message": ""
+    },
+    "MolPairStyle:lj_table_coul_off": {
+      "status": "passed",
+      "time": 0.1683,
+      "message": ""
+    },
+    "MolPairStyle:lj_table_coul_table": {
+      "status": "passed",
+      "time": 0.364972,
+      "message": ""
+    },
+    "MolPairStyle:lj_table_tip4p_long": {
+      "status": "passed",
+      "time": 3.36407,
+      "message": ""
+    },
+    "MolPairStyle:lj_table_tip4p_table": {
+      "status": "passed",
+      "time": 3.54734,
+      "message": ""
+    },
+    "MolPairStyle:local_density": {
+      "status": "passed",
+      "time": 0.06327,
+      "message": ""
+    },
+    "MolPairStyle:mesomem_dipole": {
+      "status": "passed",
+      "time": 0.277557,
+      "message": ""
+    },
+    "MolPairStyle:mie_cut": {
+      "status": "passed",
+      "time": 0.191634,
+      "message": ""
+    },
+    "MolPairStyle:mm3_switch3_coulgauss_long": {
+      "status": "passed",
+      "time": 0.187523,
+      "message": ""
+    },
+    "MolPairStyle:mm3_switch3_coulgauss_table": {
+      "status": "passed",
+      "time": 0.171515,
+      "message": ""
+    },
+    "MolPairStyle:morse": {
+      "status": "passed",
+      "time": 0.181458,
+      "message": ""
+    },
+    "MolPairStyle:morse_smooth_linear": {
+      "status": "passed",
+      "time": 0.183427,
+      "message": ""
+    },
+    "MolPairStyle:morse_soft": {
+      "status": "passed",
+      "time": 0.183315,
+      "message": ""
+    },
+    "MolPairStyle:morse_soft_shift": {
+      "status": "passed",
+      "time": 0.188403,
+      "message": ""
+    },
+    "MolPairStyle:multi_lucy": {
+      "status": "passed",
+      "time": 0.0518353,
+      "message": ""
+    },
+    "MolPairStyle:multi_lucy_rx": {
+      "status": "passed",
+      "time": 0.332785,
+      "message": ""
+    },
+    "MolPairStyle:nm_cut": {
+      "status": "passed",
+      "time": 0.186127,
+      "message": ""
+    },
+    "MolPairStyle:nm_cut_coul_cut": {
+      "status": "passed",
+      "time": 0.187836,
+      "message": ""
+    },
+    "MolPairStyle:nm_cut_coul_long": {
+      "status": "passed",
+      "time": 0.191023,
+      "message": ""
+    },
+    "MolPairStyle:nm_cut_coul_table": {
+      "status": "passed",
+      "time": 0.174036,
+      "message": ""
+    },
+    "MolPairStyle:nm_cut_split": {
+      "status": "passed",
+      "time": 0.188983,
+      "message": ""
+    },
+    "MolPairStyle:python_hybrid": {
+      "status": "passed",
+      "time": 0.0264199,
+      "message": ""
+    },
+    "MolPairStyle:python_lj": {
+      "status": "passed",
+      "time": 0.0263396,
+      "message": ""
+    },
+    "MolPairStyle:soft": {
+      "status": "passed",
+      "time": 0.176292,
+      "message": ""
+    },
+    "MolPairStyle:table": {
+      "status": "passed",
+      "time": 0.617676,
+      "message": ""
+    },
+    "MolPairStyle:table_rx": {
+      "status": "passed",
+      "time": 0.330285,
+      "message": ""
+    },
+    "MolPairStyle:thole": {
+      "status": "passed",
+      "time": 0.0260101,
+      "message": ""
+    },
+    "MolPairStyle:tip4p_cut": {
+      "status": "passed",
+      "time": 0.12321,
+      "message": ""
+    },
+    "MolPairStyle:tip4p_long": {
+      "status": "passed",
+      "time": 0.158756,
+      "message": ""
+    },
+    "MolPairStyle:tip4p_long_soft": {
+      "status": "passed",
+      "time": 0.164538,
+      "message": ""
+    },
+    "MolPairStyle:tip4p_table": {
+      "status": "passed",
+      "time": 0.331757,
+      "message": ""
+    },
+    "MolPairStyle:ufm": {
+      "status": "passed",
+      "time": 0.194536,
+      "message": ""
+    },
+    "MolPairStyle:wf_cut": {
+      "status": "passed",
+      "time": 0.189309,
+      "message": ""
+    },
+    "MolPairStyle:yukawa": {
+      "status": "passed",
+      "time": 0.188722,
+      "message": ""
+    },
+    "MolPairStyle:zbl": {
+      "status": "passed",
+      "time": 0.193121,
+      "message": ""
+    },
+    "MolPairStyle:zero": {
+      "status": "passed",
+      "time": 0.0689169,
+      "message": ""
+    },
+    "MolPairStyle:zero_coul": {
+      "status": "passed",
+      "time": 0.0668568,
+      "message": ""
+    },
+    "AtomicPairStyle:adp": {
+      "status": "passed",
+      "time": 1.38478,
+      "message": ""
+    },
+    "AtomicPairStyle:atm": {
+      "status": "passed",
+      "time": 0.778218,
+      "message": ""
+    },
+    "AtomicPairStyle:beck": {
+      "status": "passed",
+      "time": 0.153005,
+      "message": ""
+    },
+    "AtomicPairStyle:born": {
+      "status": "passed",
+      "time": 0.143702,
+      "message": ""
+    },
+    "AtomicPairStyle:born_gauss": {
+      "status": "passed",
+      "time": 0.153682,
+      "message": ""
+    },
+    "AtomicPairStyle:bpm_peri": {
+      "status": "passed",
+      "time": 0.0260955,
+      "message": ""
+    },
+    "AtomicPairStyle:brownian": {
+      "status": "passed",
+      "time": 0.0348112,
+      "message": ""
+    },
+    "AtomicPairStyle:brownian_nolog": {
+      "status": "passed",
+      "time": 0.0370739,
+      "message": ""
+    },
+    "AtomicPairStyle:brownian_poly": {
+      "status": "passed",
+      "time": 0.0368447,
+      "message": ""
+    },
+    "AtomicPairStyle:buck_coul_cut_qeq_point": {
+      "status": "passed",
+      "time": 0.0263599,
+      "message": ""
+    },
+    "AtomicPairStyle:buck_coul_cut_qeq_shielded": {
+      "status": "passed",
+      "time": 0.0237208,
+      "message": ""
+    },
+    "AtomicPairStyle:colloid": {
+      "status": "passed",
+      "time": 0.0770135,
+      "message": ""
+    },
+    "AtomicPairStyle:colloid_multi": {
+      "status": "passed",
+      "time": 0.0332545,
+      "message": ""
+    },
+    "AtomicPairStyle:colloid_multi_tri": {
+      "status": "passed",
+      "time": 0.0312017,
+      "message": ""
+    },
+    "AtomicPairStyle:colloid_tiled": {
+      "status": "passed",
+      "time": 0.0348478,
+      "message": ""
+    },
+    "AtomicPairStyle:colloid_tiled_tri": {
+      "status": "passed",
+      "time": 0.0334352,
+      "message": ""
+    },
+    "AtomicPairStyle:eam": {
+      "status": "passed",
+      "time": 0.161784,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_alloy": {
+      "status": "passed",
+      "time": 0.163951,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_alloy_real": {
+      "status": "passed",
+      "time": 0.163065,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_cd": {
+      "status": "passed",
+      "time": 0.185299,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_cd_old": {
+      "status": "passed",
+      "time": 0.181742,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_cd_real": {
+      "status": "passed",
+      "time": 0.176351,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_fs": {
+      "status": "passed",
+      "time": 0.921876,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_fs_real": {
+      "status": "passed",
+      "time": 0.916261,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_he": {
+      "status": "passed",
+      "time": 0.537743,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_he_real": {
+      "status": "passed",
+      "time": 0.546014,
+      "message": ""
+    },
+    "AtomicPairStyle:eam_real": {
+      "status": "passed",
+      "time": 0.163532,
+      "message": ""
+    },
+    "AtomicPairStyle:edip": {
+      "status": "passed",
+      "time": 0.4284,
+      "message": ""
+    },
+    "AtomicPairStyle:edip_dense": {
+      "status": "passed",
+      "time": 0.407539,
+      "message": ""
+    },
+    "AtomicPairStyle:eim": {
+      "status": "passed",
+      "time": 0.120438,
+      "message": ""
+    },
+    "AtomicPairStyle:gauss": {
+      "status": "passed",
+      "time": 0.145903,
+      "message": ""
+    },
+    "AtomicPairStyle:gran_hertz_history": {
+      "status": "passed",
+      "time": 0.149132,
+      "message": ""
+    },
+    "AtomicPairStyle:gran_hooke": {
+      "status": "passed",
+      "time": 0.0959638,
+      "message": ""
+    },
+    "AtomicPairStyle:gran_hooke_history": {
+      "status": "passed",
+      "time": 0.151156,
+      "message": ""
+    },
+    "AtomicPairStyle:gran_hooke_tri": {
+      "status": "passed",
+      "time": 0.138737,
+      "message": ""
+    },
+    "AtomicPairStyle:granular_epa_linear": {
+      "status": "passed",
+      "time": 0.0461269,
+      "message": ""
+    },
+    "AtomicPairStyle:granular_epa_nonlinear": {
+      "status": "passed",
+      "time": 0.0450089,
+      "message": ""
+    },
+    "AtomicPairStyle:granular_linear_history_static": {
+      "status": "passed",
+      "time": 0.0450121,
+      "message": ""
+    },
+    "AtomicPairStyle:granular_mindlin_static": {
+      "status": "passed",
+      "time": 0.0469611,
+      "message": ""
+    },
+    "AtomicPairStyle:hybrid-eam": {
+      "status": "passed",
+      "time": 0.167208,
+      "message": ""
+    },
+    "AtomicPairStyle:hybrid-eam_fs": {
+      "status": "passed",
+      "time": 0.916015,
+      "message": ""
+    },
+    "AtomicPairStyle:kim_lj": {
+      "status": "passed",
+      "time": 0.0237911,
+      "message": ""
+    },
+    "AtomicPairStyle:lepton_sphere": {
+      "status": "passed",
+      "time": 0.0259126,
+      "message": ""
+    },
+    "AtomicPairStyle:lj_cut_sphere": {
+      "status": "passed",
+      "time": 0.125523,
+      "message": ""
+    },
+    "AtomicPairStyle:lj_expand_sphere": {
+      "status": "passed",
+      "time": 0.12809,
+      "message": ""
+    },
+    "AtomicPairStyle:lj_relres": {
+      "status": "passed",
+      "time": 0.146726,
+      "message": ""
+    },
+    "AtomicPairStyle:lubricate": {
+      "status": "passed",
+      "time": 0.0382311,
+      "message": ""
+    },
+    "AtomicPairStyle:lubricate_poly": {
+      "status": "passed",
+      "time": 0.0366897,
+      "message": ""
+    },
+    "AtomicPairStyle:meam": {
+      "status": "passed",
+      "time": 0.647984,
+      "message": ""
+    },
+    "AtomicPairStyle:meam_2nn": {
+      "status": "passed",
+      "time": 2.02983,
+      "message": ""
+    },
+    "AtomicPairStyle:meam_ms": {
+      "status": "passed",
+      "time": 0.157043,
+      "message": ""
+    },
+    "AtomicPairStyle:meam_sc": {
+      "status": "passed",
+      "time": 0.146053,
+      "message": ""
+    },
+    "AtomicPairStyle:meam_spline": {
+      "status": "passed",
+      "time": 0.100863,
+      "message": ""
+    },
+    "AtomicPairStyle:meam_sw_spline": {
+      "status": "passed",
+      "time": 0.0547106,
+      "message": ""
+    },
+    "AtomicPairStyle:momb": {
+      "status": "passed",
+      "time": 0.152364,
+      "message": ""
+    },
+    "AtomicPairStyle:pedone": {
+      "status": "passed",
+      "time": 0.147623,
+      "message": ""
+    },
+    "AtomicPairStyle:polymorphic_eam": {
+      "status": "passed",
+      "time": 0.171678,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff-acks2": {
+      "status": "passed",
+      "time": 1.89533,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff-acks2_efield": {
+      "status": "passed",
+      "time": 0.24224,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff-qeq_rel_efield": {
+      "status": "passed",
+      "time": 0.28365,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff-qtpie": {
+      "status": "passed",
+      "time": 3.00571,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff-qtpie_efield": {
+      "status": "passed",
+      "time": 0.288471,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff": {
+      "status": "passed",
+      "time": 2.92448,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff_hybrid": {
+      "status": "passed",
+      "time": 1.62356,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff_lgvdw": {
+      "status": "passed",
+      "time": 3.08099,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff_noqeq": {
+      "status": "passed",
+      "time": 3.37332,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff_tabulate": {
+      "status": "passed",
+      "time": 3.1892,
+      "message": ""
+    },
+    "AtomicPairStyle:reaxff_tabulate_flag": {
+      "status": "passed",
+      "time": 3.43598,
+      "message": ""
+    },
+    "AtomicPairStyle:rheo_solid": {
+      "status": "passed",
+      "time": 0.0269474,
+      "message": ""
+    },
+    "AtomicPairStyle:smatb": {
+      "status": "passed",
+      "time": 0.0260619,
+      "message": ""
+    },
+    "AtomicPairStyle:smatb_same": {
+      "status": "passed",
+      "time": 0.0271229,
+      "message": ""
+    },
+    "AtomicPairStyle:smatb_single": {
+      "status": "passed",
+      "time": 0.0265294,
+      "message": ""
+    },
+    "AtomicPairStyle:sw_angle_table": {
+      "status": "passed",
+      "time": 0.185988,
+      "message": ""
+    },
+    "AtomicPairStyle:table_bitmap": {
+      "status": "passed",
+      "time": 0.171072,
+      "message": ""
+    },
+    "AtomicPairStyle:table_linear": {
+      "status": "passed",
+      "time": 0.266199,
+      "message": ""
+    },
+    "AtomicPairStyle:table_lookup": {
+      "status": "passed",
+      "time": 0.258561,
+      "message": ""
+    },
+    "AtomicPairStyle:table_spline": {
+      "status": "passed",
+      "time": 0.281105,
+      "message": ""
+    },
+    "AtomicPairStyle:threebody_table": {
+      "status": "passed",
+      "time": 0.943023,
+      "message": ""
+    },
+    "AtomicPairStyle:yukawa_colloid": {
+      "status": "passed",
+      "time": 0.0765355,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo": {
+      "status": "passed",
+      "time": 0.460757,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo_00": {
+      "status": "passed",
+      "time": 0.271278,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo_bc": {
+      "status": "passed",
+      "time": 0.458299,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo_bc00": {
+      "status": "passed",
+      "time": 0.270011,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo_m": {
+      "status": "passed",
+      "time": 0.458391,
+      "message": ""
+    },
+    "ManybodyPairStyle:airebo_m00": {
+      "status": "passed",
+      "time": 0.269639,
+      "message": ""
+    },
+    "ManybodyPairStyle:bondval": {
+      "status": "passed",
+      "time": 0.0978374,
+      "message": ""
+    },
+    "ManybodyPairStyle:bondval_vec": {
+      "status": "passed",
+      "time": 0.0982325,
+      "message": ""
+    },
+    "ManybodyPairStyle:bop": {
+      "status": "passed",
+      "time": 2.77475,
+      "message": ""
+    },
+    "ManybodyPairStyle:bop_save": {
+      "status": "passed",
+      "time": 0.41812,
+      "message": ""
+    },
+    "ManybodyPairStyle:comb": {
+      "status": "passed",
+      "time": 0.311472,
+      "message": ""
+    },
+    "ManybodyPairStyle:comb3": {
+      "status": "passed",
+      "time": 1.00561,
+      "message": ""
+    },
+    "ManybodyPairStyle:dispersion_d3": {
+      "status": "passed",
+      "time": 0.25031,
+      "message": ""
+    },
+    "ManybodyPairStyle:drip": {
+      "status": "passed",
+      "time": 1.92888,
+      "message": ""
+    },
+    "ManybodyPairStyle:drip_real": {
+      "status": "passed",
+      "time": 1.9321,
+      "message": ""
+    },
+    "ManybodyPairStyle:edip_multi": {
+      "status": "passed",
+      "time": 0.0778377,
+      "message": ""
+    },
+    "ManybodyPairStyle:extep": {
+      "status": "passed",
+      "time": 0.0522857,
+      "message": ""
+    },
+    "ManybodyPairStyle:gw": {
+      "status": "passed",
+      "time": 0.0804439,
+      "message": ""
+    },
+    "ManybodyPairStyle:gw_zbl": {
+      "status": "passed",
+      "time": 0.0813423,
+      "message": ""
+    },
+    "ManybodyPairStyle:hybrid-meam": {
+      "status": "passed",
+      "time": 0.189904,
+      "message": ""
+    },
+    "ManybodyPairStyle:hybrid_sw_lj_tri": {
+      "status": "passed",
+      "time": 0.128208,
+      "message": ""
+    },
+    "ManybodyPairStyle:ilp-graphene-hbn": {
+      "status": "passed",
+      "time": 1.72572,
+      "message": ""
+    },
+    "ManybodyPairStyle:ilp-graphene-hbn_notaper": {
+      "status": "passed",
+      "time": 1.71616,
+      "message": ""
+    },
+    "ManybodyPairStyle:kolmogorov_crespi_full": {
+      "status": "passed",
+      "time": 2.10975,
+      "message": ""
+    },
+    "ManybodyPairStyle:kolmogorov_crespi_full_notaper": {
+      "status": "passed",
+      "time": 2.10034,
+      "message": ""
+    },
+    "ManybodyPairStyle:kolmogorov_crespi_z": {
+      "status": "passed",
+      "time": 0.0951409,
+      "message": ""
+    },
+    "ManybodyPairStyle:lcbop": {
+      "status": "passed",
+      "time": 0.0914749,
+      "message": ""
+    },
+    "ManybodyPairStyle:lebedeva_z": {
+      "status": "passed",
+      "time": 0.0975712,
+      "message": ""
+    },
+    "ManybodyPairStyle:meam": {
+      "status": "passed",
+      "time": 0.112524,
+      "message": ""
+    },
+    "ManybodyPairStyle:meam_2nn": {
+      "status": "passed",
+      "time": 2.01602,
+      "message": ""
+    },
+    "ManybodyPairStyle:mliap_nn": {
+      "status": "passed",
+      "time": 0.0241748,
+      "message": ""
+    },
+    "ManybodyPairStyle:mliap_snap_chem": {
+      "status": "passed",
+      "time": 0.0260904,
+      "message": ""
+    },
+    "ManybodyPairStyle:mliap_snap_linear": {
+      "status": "passed",
+      "time": 0.0257931,
+      "message": ""
+    },
+    "ManybodyPairStyle:mliap_snap_quadratic": {
+      "status": "passed",
+      "time": 0.0262261,
+      "message": ""
+    },
+    "ManybodyPairStyle:mliap_so3": {
+      "status": "passed",
+      "time": 0.0247675,
+      "message": ""
+    },
+    "ManybodyPairStyle:nb3b_harmonic": {
+      "status": "passed",
+      "time": 0.140153,
+      "message": ""
+    },
+    "ManybodyPairStyle:nb3b_screened": {
+      "status": "passed",
+      "time": 0.364484,
+      "message": ""
+    },
+    "ManybodyPairStyle:pace_product": {
+      "status": "passed",
+      "time": 1.28858,
+      "message": ""
+    },
+    "ManybodyPairStyle:pace_recursive": {
+      "status": "passed",
+      "time": 1.04077,
+      "message": ""
+    },
+    "ManybodyPairStyle:pod": {
+      "status": "passed",
+      "time": 0.234979,
+      "message": ""
+    },
+    "ManybodyPairStyle:polymorphic_sw": {
+      "status": "passed",
+      "time": 0.188117,
+      "message": ""
+    },
+    "ManybodyPairStyle:polymorphic_tersoff": {
+      "status": "passed",
+      "time": 0.199139,
+      "message": ""
+    },
+    "ManybodyPairStyle:quip-sw": {
+      "status": "passed",
+      "time": 0.0263897,
+      "message": ""
+    },
+    "ManybodyPairStyle:rebo": {
+      "status": "passed",
+      "time": 0.267141,
+      "message": ""
+    },
+    "ManybodyPairStyle:rebomos": {
+      "status": "passed",
+      "time": 0.412567,
+      "message": ""
+    },
+    "ManybodyPairStyle:snap": {
+      "status": "passed",
+      "time": 0.38836,
+      "message": ""
+    },
+    "ManybodyPairStyle:snap_chem": {
+      "status": "passed",
+      "time": 1.20832,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw-mod-maxdelcs": {
+      "status": "passed",
+      "time": 0.103257,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw-mod-multi": {
+      "status": "passed",
+      "time": 0.101294,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw-multi": {
+      "status": "passed",
+      "time": 0.0971699,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw": {
+      "status": "passed",
+      "time": 0.0829567,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw_twobody": {
+      "status": "passed",
+      "time": 0.0813672,
+      "message": ""
+    },
+    "ManybodyPairStyle:sw_twothree": {
+      "status": "passed",
+      "time": 0.0874975,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff": {
+      "status": "passed",
+      "time": 0.0805683,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_mod": {
+      "status": "passed",
+      "time": 0.0807904,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_mod_c": {
+      "status": "passed",
+      "time": 0.0825667,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_mod_c_shift": {
+      "status": "passed",
+      "time": 0.0799963,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_mod_shift": {
+      "status": "passed",
+      "time": 0.0777988,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_shift": {
+      "status": "passed",
+      "time": 0.0830278,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_table": {
+      "status": "passed",
+      "time": 1.74907,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_zbl": {
+      "status": "passed",
+      "time": 0.0795622,
+      "message": ""
+    },
+    "ManybodyPairStyle:tersoff_zbl_shift": {
+      "status": "passed",
+      "time": 0.0798301,
+      "message": ""
+    },
+    "ManybodyPairStyle:uf3": {
+      "status": "passed",
+      "time": 0.884972,
+      "message": ""
+    },
+    "ManybodyPairStyle:vashishta": {
+      "status": "passed",
+      "time": 0.0976794,
+      "message": ""
+    },
+    "ManybodyPairStyle:vashishta_table": {
+      "status": "passed",
+      "time": 0.124464,
+      "message": ""
+    },
+    "EllipsoidPairStyle:gayberne": {
+      "status": "passed",
+      "time": 0.0577359,
+      "message": ""
+    },
+    "EllipsoidPairStyle:resquared": {
+      "status": "passed",
+      "time": 0.0610117,
+      "message": ""
+    },
+    "EllipsoidPairStyle:ylz": {
+      "status": "passed",
+      "time": 0.133978,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polygon": {
+      "status": "passed",
+      "time": 0.0279085,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polygon_history": {
+      "status": "passed",
+      "time": 0.0275156,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron": {
+      "status": "passed",
+      "time": 0.0269494,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron_faces": {
+      "status": "passed",
+      "time": 0.02743,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron_granular": {
+      "status": "passed",
+      "time": 0.0276653,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron_granular_faces": {
+      "status": "passed",
+      "time": 0.0257237,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron_granular_hertz": {
+      "status": "passed",
+      "time": 0.0271433,
+      "message": ""
+    },
+    "BodyPairStyle:rounded_polyhedron_history": {
+      "status": "passed",
+      "time": 0.0252847,
+      "message": ""
+    },
+    "SpinPairStyle:dipole_cut": {
+      "status": "passed",
+      "time": 0.0531332,
+      "message": ""
+    },
+    "SpinPairStyle:dipole_long": {
+      "status": "passed",
+      "time": 0.0524922,
+      "message": ""
+    },
+    "SpinPairStyle:dmi": {
+      "status": "passed",
+      "time": 0.0514869,
+      "message": ""
+    },
+    "SpinPairStyle:exchange": {
+      "status": "passed",
+      "time": 0.0496786,
+      "message": ""
+    },
+    "SpinPairStyle:exchange_biquadratic": {
+      "status": "passed",
+      "time": 0.0556713,
+      "message": ""
+    },
+    "SpinPairStyle:hybrid_overlay_exchange": {
+      "status": "passed",
+      "time": 0.226576,
+      "message": ""
+    },
+    "SpinPairStyle:magelec": {
+      "status": "passed",
+      "time": 0.0527892,
+      "message": ""
+    },
+    "SpinPairStyle:neel": {
+      "status": "passed",
+      "time": 0.0564598,
+      "message": ""
+    },
+    "SPHPairStyle:heatconduction": {
+      "status": "passed",
+      "time": 0.0267869,
+      "message": ""
+    },
+    "SPHPairStyle:idealgas": {
+      "status": "passed",
+      "time": 0.027497,
+      "message": ""
+    },
+    "SPHPairStyle:lj": {
+      "status": "passed",
+      "time": 0.0254563,
+      "message": ""
+    },
+    "SPHPairStyle:rhosum": {
+      "status": "passed",
+      "time": 0.0272355,
+      "message": ""
+    },
+    "SPHPairStyle:sdpd_taitwater_isothermal": {
+      "status": "passed",
+      "time": 0.0259524,
+      "message": ""
+    },
+    "SPHPairStyle:taitwater": {
+      "status": "passed",
+      "time": 0.0262216,
+      "message": ""
+    },
+    "SPHPairStyle:taitwater_morris": {
+      "status": "passed",
+      "time": 0.0262288,
+      "message": ""
+    },
+    "MesoPairStyle:edpd": {
+      "status": "passed",
+      "time": 0.0217255,
+      "message": ""
+    },
+    "MesoPairStyle:mdpd": {
+      "status": "passed",
+      "time": 0.0277103,
+      "message": ""
+    },
+    "MesoPairStyle:mdpd_t0": {
+      "status": "passed",
+      "time": 0.0266823,
+      "message": ""
+    },
+    "MesoPairStyle:tdpd": {
+      "status": "passed",
+      "time": 0.0233758,
+      "message": ""
+    },
+    "BondStyle:class2": {
+      "status": "passed",
+      "time": 0.177209,
+      "message": ""
+    },
+    "BondStyle:fene": {
+      "status": "passed",
+      "time": 0.177154,
+      "message": ""
+    },
+    "BondStyle:fene_expand": {
+      "status": "passed",
+      "time": 0.177283,
+      "message": ""
+    },
+    "BondStyle:fene_nm": {
+      "status": "passed",
+      "time": 0.174597,
+      "message": ""
+    },
+    "BondStyle:gaussian": {
+      "status": "passed",
+      "time": 0.178669,
+      "message": ""
+    },
+    "BondStyle:gromos": {
+      "status": "passed",
+      "time": 0.173459,
+      "message": ""
+    },
+    "BondStyle:harmonic": {
+      "status": "passed",
+      "time": 0.174544,
+      "message": ""
+    },
+    "BondStyle:harmonic_restrain": {
+      "status": "passed",
+      "time": 0.171212,
+      "message": ""
+    },
+    "BondStyle:harmonic_shift": {
+      "status": "passed",
+      "time": 0.175065,
+      "message": ""
+    },
+    "BondStyle:harmonic_shift_cut": {
+      "status": "passed",
+      "time": 0.171724,
+      "message": ""
+    },
+    "BondStyle:hybrid": {
+      "status": "passed",
+      "time": 0.176655,
+      "message": ""
+    },
+    "BondStyle:lepton": {
+      "status": "passed",
+      "time": 0.0267609,
+      "message": ""
+    },
+    "BondStyle:lepton_nooffset": {
+      "status": "passed",
+      "time": 0.026648,
+      "message": ""
+    },
+    "BondStyle:mm3": {
+      "status": "passed",
+      "time": 0.176139,
+      "message": ""
+    },
+    "BondStyle:morse": {
+      "status": "passed",
+      "time": 0.173622,
+      "message": ""
+    },
+    "BondStyle:nonlinear": {
+      "status": "passed",
+      "time": 0.170566,
+      "message": ""
+    },
+    "BondStyle:quartic": {
+      "status": "passed",
+      "time": 0.160635,
+      "message": ""
+    },
+    "BondStyle:quartic_exp": {
+      "status": "passed",
+      "time": 0.174943,
+      "message": ""
+    },
+    "BondStyle:special": {
+      "status": "passed",
+      "time": 0.0243118,
+      "message": ""
+    },
+    "BondStyle:table_linear": {
+      "status": "passed",
+      "time": 0.193004,
+      "message": ""
+    },
+    "BondStyle:table_spline": {
+      "status": "passed",
+      "time": 0.192338,
+      "message": ""
+    },
+    "BondStyle:zero": {
+      "status": "passed",
+      "time": 0.0620425,
+      "message": ""
+    },
+    "AngleStyle:amoeba": {
+      "status": "passed",
+      "time": 0.0268234,
+      "message": ""
+    },
+    "AngleStyle:charmm": {
+      "status": "passed",
+      "time": 0.203619,
+      "message": ""
+    },
+    "AngleStyle:class2": {
+      "status": "passed",
+      "time": 0.207208,
+      "message": ""
+    },
+    "AngleStyle:class2_p6": {
+      "status": "passed",
+      "time": 0.208386,
+      "message": ""
+    },
+    "AngleStyle:class2xe": {
+      "status": "passed",
+      "time": 0.208365,
+      "message": ""
+    },
+    "AngleStyle:cosine": {
+      "status": "passed",
+      "time": 0.204617,
+      "message": ""
+    },
+    "AngleStyle:cosine_buck6d": {
+      "status": "passed",
+      "time": 0.083121,
+      "message": ""
+    },
+    "AngleStyle:cosine_delta": {
+      "status": "passed",
+      "time": 0.206382,
+      "message": ""
+    },
+    "AngleStyle:cosine_periodic": {
+      "status": "passed",
+      "time": 0.205216,
+      "message": ""
+    },
+    "AngleStyle:cosine_shift": {
+      "status": "passed",
+      "time": 0.201328,
+      "message": ""
+    },
+    "AngleStyle:cosine_shift_exp": {
+      "status": "passed",
+      "time": 0.201418,
+      "message": ""
+    },
+    "AngleStyle:cosine_squared": {
+      "status": "passed",
+      "time": 0.204193,
+      "message": ""
+    },
+    "AngleStyle:cosine_squared_restricted": {
+      "status": "passed",
+      "time": 0.207283,
+      "message": ""
+    },
+    "AngleStyle:cross": {
+      "status": "passed",
+      "time": 0.209999,
+      "message": ""
+    },
+    "AngleStyle:dipole": {
+      "status": "passed",
+      "time": 0.208917,
+      "message": ""
+    },
+    "AngleStyle:fourier": {
+      "status": "passed",
+      "time": 0.20207,
+      "message": ""
+    },
+    "AngleStyle:fourier_simple": {
+      "status": "passed",
+      "time": 0.207907,
+      "message": ""
+    },
+    "AngleStyle:gaussian": {
+      "status": "passed",
+      "time": 0.207784,
+      "message": ""
+    },
+    "AngleStyle:harmonic": {
+      "status": "passed",
+      "time": 0.206855,
+      "message": ""
+    },
+    "AngleStyle:hybrid": {
+      "status": "passed",
+      "time": 0.214537,
+      "message": ""
+    },
+    "AngleStyle:lepton": {
+      "status": "passed",
+      "time": 0.0238051,
+      "message": ""
+    },
+    "AngleStyle:lepton_nooffset": {
+      "status": "passed",
+      "time": 0.027676,
+      "message": ""
+    },
+    "AngleStyle:mm3": {
+      "status": "passed",
+      "time": 0.212994,
+      "message": ""
+    },
+    "AngleStyle:mwlc": {
+      "status": "passed",
+      "time": 0.210108,
+      "message": ""
+    },
+    "AngleStyle:quartic": {
+      "status": "passed",
+      "time": 0.209939,
+      "message": ""
+    },
+    "AngleStyle:spica": {
+      "status": "passed",
+      "time": 0.230343,
+      "message": ""
+    },
+    "AngleStyle:table_linear": {
+      "status": "passed",
+      "time": 0.225496,
+      "message": ""
+    },
+    "AngleStyle:table_spline": {
+      "status": "passed",
+      "time": 0.229819,
+      "message": ""
+    },
+    "AngleStyle:zero": {
+      "status": "passed",
+      "time": 0.0591639,
+      "message": ""
+    },
+    "KSpaceStyle:esp": {
+      "status": "passed",
+      "time": 0.784944,
+      "message": ""
+    },
+    "KSpaceStyle:ewald": {
+      "status": "passed",
+      "time": 0.195427,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_conp_charge": {
+      "status": "passed",
+      "time": 0.0269296,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_dipole": {
+      "status": "passed",
+      "time": 0.064646,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_dipole_spin": {
+      "status": "passed",
+      "time": 0.0552124,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_disp": {
+      "status": "passed",
+      "time": 0.0620089,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_disp_arith": {
+      "status": "passed",
+      "time": 0.063192,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_disp_dipole": {
+      "status": "passed",
+      "time": 0.0623223,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_disp_mixgeom": {
+      "status": "passed",
+      "time": 0.061822,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_disp_tri_slab": {
+      "status": "passed",
+      "time": 0.0606394,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_electrode_slab": {
+      "status": "passed",
+      "time": 0.025575,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_nozforce": {
+      "status": "passed",
+      "time": 0.191261,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_slab": {
+      "status": "passed",
+      "time": 0.215544,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_tilted": {
+      "status": "passed",
+      "time": 0.271349,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_tri": {
+      "status": "passed",
+      "time": 0.246066,
+      "message": ""
+    },
+    "KSpaceStyle:ewald_tri_slab": {
+      "status": "passed",
+      "time": 0.281339,
+      "message": ""
+    },
+    "KSpaceStyle:msm": {
+      "status": "passed",
+      "time": 0.466308,
+      "message": ""
+    },
+    "KSpaceStyle:msm_cg": {
+      "status": "passed",
+      "time": 0.463138,
+      "message": ""
+    },
+    "KSpaceStyle:msm_dielectric": {
+      "status": "passed",
+      "time": 0.0242686,
+      "message": ""
+    },
+    "KSpaceStyle:msm_nopbc": {
+      "status": "passed",
+      "time": 1.32964,
+      "message": ""
+    },
+    "KSpaceStyle:pppm": {
+      "status": "passed",
+      "time": 0.346244,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_ad": {
+      "status": "passed",
+      "time": 0.102378,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_cg": {
+      "status": "passed",
+      "time": 0.252077,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_cg_ad": {
+      "status": "passed",
+      "time": 0.293981,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_cg_tiled": {
+      "status": "passed",
+      "time": 0.27414,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_cg_tri_slab": {
+      "status": "passed",
+      "time": 0.412008,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_conp_charge": {
+      "status": "passed",
+      "time": 0.0270862,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_dielectric": {
+      "status": "passed",
+      "time": 0.0268225,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_dipole": {
+      "status": "passed",
+      "time": 1.60008,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_dipole_spin": {
+      "status": "passed",
+      "time": 0.0788725,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp": {
+      "status": "passed",
+      "time": 3.3327,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_ad": {
+      "status": "passed",
+      "time": 5.01647,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_ad_only": {
+      "status": "passed",
+      "time": 0.0902541,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_dielectric": {
+      "status": "passed",
+      "time": 0.0260409,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_only": {
+      "status": "passed",
+      "time": 0.0842984,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_tip4p": {
+      "status": "passed",
+      "time": 3.25,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_tip4p_tri": {
+      "status": "passed",
+      "time": 3.26079,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_tri": {
+      "status": "passed",
+      "time": 3.34367,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_tri_arith": {
+      "status": "passed",
+      "time": 3.36238,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_disp_tri_slab": {
+      "status": "passed",
+      "time": 12.5238,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_electrode_slab": {
+      "status": "passed",
+      "time": 0.0252227,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_nozforce": {
+      "status": "passed",
+      "time": 0.34552,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_slab": {
+      "status": "passed",
+      "time": 0.437583,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_stagger": {
+      "status": "passed",
+      "time": 2.23499,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_stagger_tiled": {
+      "status": "passed",
+      "time": 2.80166,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tiled": {
+      "status": "passed",
+      "time": 0.335839,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tilted": {
+      "status": "passed",
+      "time": 0.479197,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tip4p": {
+      "status": "passed",
+      "time": 0.20425,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tip4p_ad": {
+      "status": "passed",
+      "time": 0.095151,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tip4p_nozforce": {
+      "status": "passed",
+      "time": 0.200886,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tip4p_slab": {
+      "status": "passed",
+      "time": 0.254412,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tri": {
+      "status": "passed",
+      "time": 0.421739,
+      "message": ""
+    },
+    "KSpaceStyle:pppm_tri_slab": {
+      "status": "passed",
+      "time": 0.679187,
+      "message": ""
+    },
+    "KSpaceStyle:scafacos_direct": {
+      "status": "passed",
+      "time": 0.025949,
+      "message": ""
+    },
+    "KSpaceStyle:scafacos_ewald": {
+      "status": "passed",
+      "time": 0.0264942,
+      "message": ""
+    },
+    "KSpaceStyle:scafacos_fmm": {
+      "status": "passed",
+      "time": 0.0260802,
+      "message": ""
+    },
+    "KSpaceStyle:scafacos_fmm_tuned": {
+      "status": "passed",
+      "time": 0.0260704,
+      "message": ""
+    },
+    "KSpaceStyle:scafacos_p2nfft": {
+      "status": "passed",
+      "time": 0.0271146,
+      "message": ""
+    },
+    "KSpaceStyle:zero": {
+      "status": "passed",
+      "time": 0.177389,
+      "message": ""
+    },
+    "FixTimestep:accelerate_cos": {
+      "status": "passed",
+      "time": 0.0232354,
+      "message": ""
+    },
+    "FixTimestep:adapt_coul": {
+      "status": "passed",
+      "time": 0.0662697,
+      "message": ""
+    },
+    "FixTimestep:adapt_hybrid": {
+      "status": "passed",
+      "time": 0.0450708,
+      "message": ""
+    },
+    "FixTimestep:adapt_pair": {
+      "status": "passed",
+      "time": 0.0448824,
+      "message": ""
+    },
+    "FixTimestep:addforce_const": {
+      "status": "passed",
+      "time": 0.206004,
+      "message": ""
+    },
+    "FixTimestep:addforce_region": {
+      "status": "passed",
+      "time": 0.207539,
+      "message": ""
+    },
+    "FixTimestep:addforce_region_variable": {
+      "status": "passed",
+      "time": 0.225959,
+      "message": ""
+    },
+    "FixTimestep:addforce_variable": {
+      "status": "passed",
+      "time": 0.227574,
+      "message": ""
+    },
+    "FixTimestep:addtorque_atom": {
+      "status": "passed",
+      "time": 0.162608,
+      "message": ""
+    },
+    "FixTimestep:addtorque_atom_region": {
+      "status": "passed",
+      "time": 0.161099,
+      "message": ""
+    },
+    "FixTimestep:addtorque_atom_variable": {
+      "status": "passed",
+      "time": 0.158314,
+      "message": ""
+    },
+    "FixTimestep:addtorque_group_const": {
+      "status": "passed",
+      "time": 0.210544,
+      "message": ""
+    },
+    "FixTimestep:addtorque_group_variable": {
+      "status": "passed",
+      "time": 0.210349,
+      "message": ""
+    },
+    "FixTimestep:aveforce_const": {
+      "status": "passed",
+      "time": 0.212518,
+      "message": ""
+    },
+    "FixTimestep:aveforce_region": {
+      "status": "passed",
+      "time": 0.205727,
+      "message": ""
+    },
+    "FixTimestep:aveforce_region_variable": {
+      "status": "passed",
+      "time": 0.209545,
+      "message": ""
+    },
+    "FixTimestep:aveforce_variable": {
+      "status": "passed",
+      "time": 0.210655,
+      "message": ""
+    },
+    "FixTimestep:baoab": {
+      "status": "passed",
+      "time": 0.0308152,
+      "message": ""
+    },
+    "FixTimestep:baoab_zero": {
+      "status": "passed",
+      "time": 0.0280679,
+      "message": ""
+    },
+    "FixTimestep:brownian": {
+      "status": "passed",
+      "time": 0.0368909,
+      "message": ""
+    },
+    "FixTimestep:brownian_point": {
+      "status": "passed",
+      "time": 0.0327639,
+      "message": ""
+    },
+    "FixTimestep:cmap": {
+      "status": "passed",
+      "time": 0.33389,
+      "message": ""
+    },
+    "FixTimestep:damping_cundall": {
+      "status": "passed",
+      "time": 0.164486,
+      "message": ""
+    },
+    "FixTimestep:deform": {
+      "status": "passed",
+      "time": 0.212976,
+      "message": ""
+    },
+    "FixTimestep:deform_noremap": {
+      "status": "passed",
+      "time": 0.210886,
+      "message": ""
+    },
+    "FixTimestep:deform_tri": {
+      "status": "passed",
+      "time": 0.25413,
+      "message": ""
+    },
+    "FixTimestep:dpd_energy": {
+      "status": "passed",
+      "time": 0.0258309,
+      "message": ""
+    },
+    "FixTimestep:drag": {
+      "status": "passed",
+      "time": 0.206843,
+      "message": ""
+    },
+    "FixTimestep:dt_reset": {
+      "status": "passed",
+      "time": 0.205373,
+      "message": ""
+    },
+    "FixTimestep:efield_const": {
+      "status": "passed",
+      "time": 0.215165,
+      "message": ""
+    },
+    "FixTimestep:efield_dipole_const": {
+      "status": "passed",
+      "time": 0.228666,
+      "message": ""
+    },
+    "FixTimestep:efield_dipole_region": {
+      "status": "passed",
+      "time": 0.226291,
+      "message": ""
+    },
+    "FixTimestep:efield_dipole_variable": {
+      "status": "passed",
+      "time": 0.0418413,
+      "message": ""
+    },
+    "FixTimestep:efield_lepton": {
+      "status": "passed",
+      "time": 0.0259745,
+      "message": ""
+    },
+    "FixTimestep:efield_lepton_region": {
+      "status": "passed",
+      "time": 0.0253344,
+      "message": ""
+    },
+    "FixTimestep:efield_region_block": {
+      "status": "passed",
+      "time": 0.213096,
+      "message": ""
+    },
+    "FixTimestep:efield_region_sphere": {
+      "status": "passed",
+      "time": 0.214116,
+      "message": ""
+    },
+    "FixTimestep:efield_region_variable": {
+      "status": "passed",
+      "time": 0.232129,
+      "message": ""
+    },
+    "FixTimestep:efield_tip4p_const": {
+      "status": "passed",
+      "time": 0.0454178,
+      "message": ""
+    },
+    "FixTimestep:efield_tip4p_variable": {
+      "status": "passed",
+      "time": 0.0458222,
+      "message": ""
+    },
+    "FixTimestep:efield_variable": {
+      "status": "passed",
+      "time": 0.0454869,
+      "message": ""
+    },
+    "FixTimestep:ehex": {
+      "status": "passed",
+      "time": 0.0448316,
+      "message": ""
+    },
+    "FixTimestep:electron_stopping": {
+      "status": "passed",
+      "time": 0.224987,
+      "message": ""
+    },
+    "FixTimestep:electron_stopping_fit": {
+      "status": "passed",
+      "time": 0.036615,
+      "message": ""
+    },
+    "FixTimestep:enforce2d": {
+      "status": "passed",
+      "time": 0.12823,
+      "message": ""
+    },
+    "FixTimestep:eos_table_rx": {
+      "status": "passed",
+      "time": 0.181901,
+      "message": ""
+    },
+    "FixTimestep:ffl": {
+      "status": "passed",
+      "time": 0.0322095,
+      "message": ""
+    },
+    "FixTimestep:flow_gauss": {
+      "status": "passed",
+      "time": 0.213746,
+      "message": ""
+    },
+    "FixTimestep:freeze": {
+      "status": "passed",
+      "time": 0.161243,
+      "message": ""
+    },
+    "FixTimestep:gjf": {
+      "status": "passed",
+      "time": 0.0356882,
+      "message": ""
+    },
+    "FixTimestep:gld": {
+      "status": "passed",
+      "time": 0.0367148,
+      "message": ""
+    },
+    "FixTimestep:gravity": {
+      "status": "passed",
+      "time": 0.210496,
+      "message": ""
+    },
+    "FixTimestep:gravity_spherical_variable": {
+      "status": "passed",
+      "time": 0.214667,
+      "message": ""
+    },
+    "FixTimestep:gravity_variable": {
+      "status": "passed",
+      "time": 0.214148,
+      "message": ""
+    },
+    "FixTimestep:gravity_vector_variable": {
+      "status": "passed",
+      "time": 0.209486,
+      "message": ""
+    },
+    "FixTimestep:heat": {
+      "status": "passed",
+      "time": 0.206605,
+      "message": ""
+    },
+    "FixTimestep:heat_region": {
+      "status": "passed",
+      "time": 0.204792,
+      "message": ""
+    },
+    "FixTimestep:heat_variable": {
+      "status": "passed",
+      "time": 0.22418,
+      "message": ""
+    },
+    "FixTimestep:ilves_angle": {
+      "status": "passed",
+      "time": 0.0317806,
+      "message": ""
+    },
+    "FixTimestep:ilves_bond": {
+      "status": "passed",
+      "time": 0.0378603,
+      "message": ""
+    },
+    "FixTimestep:indent": {
+      "status": "passed",
+      "time": 0.0458835,
+      "message": ""
+    },
+    "FixTimestep:langevin": {
+      "status": "passed",
+      "time": 0.031605,
+      "message": ""
+    },
+    "FixTimestep:langevin_angmom": {
+      "status": "passed",
+      "time": 0.0266454,
+      "message": ""
+    },
+    "FixTimestep:langevin_bias_partial": {
+      "status": "passed",
+      "time": 0.0298642,
+      "message": ""
+    },
+    "FixTimestep:langevin_omega": {
+      "status": "passed",
+      "time": 0.0309558,
+      "message": ""
+    },
+    "FixTimestep:langevin_tally": {
+      "status": "passed",
+      "time": 0.0267249,
+      "message": ""
+    },
+    "FixTimestep:langevin_zero": {
+      "status": "passed",
+      "time": 0.0297903,
+      "message": ""
+    },
+    "FixTimestep:langevin_zero_tally": {
+      "status": "passed",
+      "time": 0.0299493,
+      "message": ""
+    },
+    "FixTimestep:lineforce": {
+      "status": "passed",
+      "time": 0.203262,
+      "message": ""
+    },
+    "FixTimestep:momentum": {
+      "status": "passed",
+      "time": 0.209131,
+      "message": ""
+    },
+    "FixTimestep:momentum_chunk": {
+      "status": "passed",
+      "time": 0.045237,
+      "message": ""
+    },
+    "FixTimestep:move_linear": {
+      "status": "passed",
+      "time": 0.0454992,
+      "message": ""
+    },
+    "FixTimestep:move_rotate": {
+      "status": "passed",
+      "time": 0.0460925,
+      "message": ""
+    },
+    "FixTimestep:move_transrot": {
+      "status": "passed",
+      "time": 0.0454342,
+      "message": ""
+    },
+    "FixTimestep:move_variable": {
+      "status": "passed",
+      "time": 0.045738,
+      "message": ""
+    },
+    "FixTimestep:move_wiggle": {
+      "status": "passed",
+      "time": 0.0455217,
+      "message": ""
+    },
+    "FixTimestep:msst": {
+      "status": "passed",
+      "time": 0.0316218,
+      "message": ""
+    },
+    "FixTimestep:nph": {
+      "status": "passed",
+      "time": 0.182914,
+      "message": ""
+    },
+    "FixTimestep:nph_asphere": {
+      "status": "passed",
+      "time": 0.0328805,
+      "message": ""
+    },
+    "FixTimestep:nph_sphere": {
+      "status": "passed",
+      "time": 0.22787,
+      "message": ""
+    },
+    "FixTimestep:nphug": {
+      "status": "passed",
+      "time": 0.0319076,
+      "message": ""
+    },
+    "FixTimestep:npt_aniso": {
+      "status": "passed",
+      "time": 0.18841,
+      "message": ""
+    },
+    "FixTimestep:npt_asphere": {
+      "status": "passed",
+      "time": 0.0334823,
+      "message": ""
+    },
+    "FixTimestep:npt_iso": {
+      "status": "passed",
+      "time": 0.18658,
+      "message": ""
+    },
+    "FixTimestep:npt_isoch": {
+      "status": "passed",
+      "time": 0.0459683,
+      "message": ""
+    },
+    "FixTimestep:npt_sphere_aniso": {
+      "status": "passed",
+      "time": 0.230421,
+      "message": ""
+    },
+    "FixTimestep:npt_sphere_iso": {
+      "status": "passed",
+      "time": 0.234513,
+      "message": ""
+    },
+    "FixTimestep:npt_sphere_tri": {
+      "status": "passed",
+      "time": 0.258197,
+      "message": ""
+    },
+    "FixTimestep:npt_tri": {
+      "status": "passed",
+      "time": 0.228404,
+      "message": ""
+    },
+    "FixTimestep:nve": {
+      "status": "passed",
+      "time": 0.20941,
+      "message": ""
+    },
+    "FixTimestep:nve_asphere": {
+      "status": "passed",
+      "time": 0.129287,
+      "message": ""
+    },
+    "FixTimestep:nve_asphere_noforce": {
+      "status": "passed",
+      "time": 0.0987624,
+      "message": ""
+    },
+    "FixTimestep:nve_body_polygon": {
+      "status": "passed",
+      "time": 0.0249668,
+      "message": ""
+    },
+    "FixTimestep:nve_body_polyhedron": {
+      "status": "passed",
+      "time": 0.0254529,
+      "message": ""
+    },
+    "FixTimestep:nve_body_polyhedron_granular": {
+      "status": "passed",
+      "time": 0.0262819,
+      "message": ""
+    },
+    "FixTimestep:nve_limit": {
+      "status": "passed",
+      "time": 0.176938,
+      "message": ""
+    },
+    "FixTimestep:nve_noforce": {
+      "status": "passed",
+      "time": 0.172204,
+      "message": ""
+    },
+    "FixTimestep:nve_sphere": {
+      "status": "passed",
+      "time": 0.223051,
+      "message": ""
+    },
+    "FixTimestep:nve_sphere_dipole": {
+      "status": "passed",
+      "time": 0.239044,
+      "message": ""
+    },
+    "FixTimestep:nve_sphere_dipole_dlm": {
+      "status": "passed",
+      "time": 0.0451378,
+      "message": ""
+    },
+    "FixTimestep:nve_sphere_dipole_ljlong": {
+      "status": "passed",
+      "time": 0.221642,
+      "message": ""
+    },
+    "FixTimestep:nve_sphere_dipole_mesomem": {
+      "status": "passed",
+      "time": 0.236293,
+      "message": ""
+    },
+    "FixTimestep:nve_spin": {
+      "status": "passed",
+      "time": 0.0349987,
+      "message": ""
+    },
+    "FixTimestep:nve_tspin": {
+      "status": "passed",
+      "time": 0.0375096,
+      "message": ""
+    },
+    "FixTimestep:nvk": {
+      "status": "passed",
+      "time": 0.200878,
+      "message": ""
+    },
+    "FixTimestep:nvt-psllod-peculiar": {
+      "status": "passed",
+      "time": 0.233798,
+      "message": ""
+    },
+    "FixTimestep:nvt-psllod-reversible": {
+      "status": "passed",
+      "time": 0.238383,
+      "message": ""
+    },
+    "FixTimestep:nvt-psllod": {
+      "status": "passed",
+      "time": 0.227088,
+      "message": ""
+    },
+    "FixTimestep:nvt-sllod-peculiar": {
+      "status": "passed",
+      "time": 0.231249,
+      "message": ""
+    },
+    "FixTimestep:nvt-sllod-reversible": {
+      "status": "passed",
+      "time": 0.241797,
+      "message": ""
+    },
+    "FixTimestep:nvt-sllod": {
+      "status": "passed",
+      "time": 0.22839,
+      "message": ""
+    },
+    "FixTimestep:nvt": {
+      "status": "passed",
+      "time": 0.181662,
+      "message": ""
+    },
+    "FixTimestep:nvt_asphere": {
+      "status": "passed",
+      "time": 0.0326954,
+      "message": ""
+    },
+    "FixTimestep:nvt_bias_com": {
+      "status": "passed",
+      "time": 0.187487,
+      "message": ""
+    },
+    "FixTimestep:nvt_bias_deform": {
+      "status": "passed",
+      "time": 0.188642,
+      "message": ""
+    },
+    "FixTimestep:nvt_bias_deform_nested": {
+      "status": "passed",
+      "time": 0.188545,
+      "message": ""
+    },
+    "FixTimestep:nvt_bias_region": {
+      "status": "passed",
+      "time": 0.1842,
+      "message": ""
+    },
+    "FixTimestep:nvt_drag": {
+      "status": "passed",
+      "time": 0.182946,
+      "message": ""
+    },
+    "FixTimestep:nvt_mtk": {
+      "status": "passed",
+      "time": 0.185689,
+      "message": ""
+    },
+    "FixTimestep:nvt_sphere": {
+      "status": "passed",
+      "time": 0.226148,
+      "message": ""
+    },
+    "FixTimestep:nvt_uef": {
+      "status": "passed",
+      "time": 0.0233625,
+      "message": ""
+    },
+    "FixTimestep:oneway": {
+      "status": "passed",
+      "time": 0.222822,
+      "message": ""
+    },
+    "FixTimestep:planeforce": {
+      "status": "passed",
+      "time": 0.206416,
+      "message": ""
+    },
+    "FixTimestep:precession_spin": {
+      "status": "passed",
+      "time": 0.0381859,
+      "message": ""
+    },
+    "FixTimestep:press_berendsen_iso": {
+      "status": "passed",
+      "time": 0.211451,
+      "message": ""
+    },
+    "FixTimestep:press_langevin_iso": {
+      "status": "passed",
+      "time": 0.202077,
+      "message": ""
+    },
+    "FixTimestep:press_langevin_tri": {
+      "status": "passed",
+      "time": 0.240029,
+      "message": ""
+    },
+    "FixTimestep:propel_self": {
+      "status": "passed",
+      "time": 0.210563,
+      "message": ""
+    },
+    "FixTimestep:propel_self_dipole": {
+      "status": "passed",
+      "time": 0.161717,
+      "message": ""
+    },
+    "FixTimestep:python_move_nve": {
+      "status": "passed",
+      "time": 0.0255264,
+      "message": ""
+    },
+    "FixTimestep:qtb": {
+      "status": "passed",
+      "time": 0.0254414,
+      "message": ""
+    },
+    "FixTimestep:rattle_angle": {
+      "status": "passed",
+      "time": 0.0492105,
+      "message": ""
+    },
+    "FixTimestep:rattle_bond": {
+      "status": "passed",
+      "time": 0.0476207,
+      "message": ""
+    },
+    "FixTimestep:recenter-coords": {
+      "status": "passed",
+      "time": 0.208167,
+      "message": ""
+    },
+    "FixTimestep:recenter-init": {
+      "status": "passed",
+      "time": 0.205152,
+      "message": ""
+    },
+    "FixTimestep:recenter-null": {
+      "status": "passed",
+      "time": 0.211121,
+      "message": ""
+    },
+    "FixTimestep:restrain": {
+      "status": "passed",
+      "time": 0.0440735,
+      "message": ""
+    },
+    "FixTimestep:rigid_group": {
+      "status": "passed",
+      "time": 0.0374142,
+      "message": ""
+    },
+    "FixTimestep:rigid_molecule": {
+      "status": "passed",
+      "time": 0.0364718,
+      "message": ""
+    },
+    "FixTimestep:rigid_molecule_dipole": {
+      "status": "passed",
+      "time": 0.0363219,
+      "message": ""
+    },
+    "FixTimestep:rigid_molecule_tri": {
+      "status": "passed",
+      "time": 0.0372776,
+      "message": ""
+    },
+    "FixTimestep:rigid_nph": {
+      "status": "passed",
+      "time": 0.036481,
+      "message": ""
+    },
+    "FixTimestep:rigid_nph_small": {
+      "status": "passed",
+      "time": 0.273016,
+      "message": ""
+    },
+    "FixTimestep:rigid_npt": {
+      "status": "passed",
+      "time": 0.0371337,
+      "message": ""
+    },
+    "FixTimestep:rigid_npt_small": {
+      "status": "passed",
+      "time": 0.269597,
+      "message": ""
+    },
+    "FixTimestep:rigid_nve_group": {
+      "status": "passed",
+      "time": 0.034199,
+      "message": ""
+    },
+    "FixTimestep:rigid_nve_molecule": {
+      "status": "passed",
+      "time": 0.0370478,
+      "message": ""
+    },
+    "FixTimestep:rigid_nve_single": {
+      "status": "passed",
+      "time": 0.0348878,
+      "message": ""
+    },
+    "FixTimestep:rigid_nve_small": {
+      "status": "passed",
+      "time": 0.262303,
+      "message": ""
+    },
+    "FixTimestep:rigid_nvt": {
+      "status": "passed",
+      "time": 0.0348174,
+      "message": ""
+    },
+    "FixTimestep:rigid_nvt_small": {
+      "status": "passed",
+      "time": 0.266099,
+      "message": ""
+    },
+    "FixTimestep:rigid_single": {
+      "status": "passed",
+      "time": 0.0367742,
+      "message": ""
+    },
+    "FixTimestep:rigid_small": {
+      "status": "passed",
+      "time": 0.268308,
+      "message": ""
+    },
+    "FixTimestep:rigid_small_deform_tri": {
+      "status": "passed",
+      "time": 0.0364986,
+      "message": ""
+    },
+    "FixTimestep:rigid_small_dipole": {
+      "status": "passed",
+      "time": 0.31054,
+      "message": ""
+    },
+    "FixTimestep:rx": {
+      "status": "passed",
+      "time": 0.180013,
+      "message": ""
+    },
+    "FixTimestep:setforce_const": {
+      "status": "passed",
+      "time": 0.212537,
+      "message": ""
+    },
+    "FixTimestep:setforce_region_block": {
+      "status": "passed",
+      "time": 0.209021,
+      "message": ""
+    },
+    "FixTimestep:setforce_region_sphere": {
+      "status": "passed",
+      "time": 0.205798,
+      "message": ""
+    },
+    "FixTimestep:setforce_region_variable": {
+      "status": "passed",
+      "time": 0.223092,
+      "message": ""
+    },
+    "FixTimestep:setforce_spin": {
+      "status": "passed",
+      "time": 0.0385992,
+      "message": ""
+    },
+    "FixTimestep:setforce_variable": {
+      "status": "passed",
+      "time": 0.228261,
+      "message": ""
+    },
+    "FixTimestep:settorque_atom": {
+      "status": "passed",
+      "time": 0.171735,
+      "message": ""
+    },
+    "FixTimestep:settorque_atom_region": {
+      "status": "passed",
+      "time": 0.159422,
+      "message": ""
+    },
+    "FixTimestep:settorque_atom_variable": {
+      "status": "passed",
+      "time": 0.160038,
+      "message": ""
+    },
+    "FixTimestep:shake_angle": {
+      "status": "passed",
+      "time": 0.262822,
+      "message": ""
+    },
+    "FixTimestep:shake_bond": {
+      "status": "passed",
+      "time": 0.260494,
+      "message": ""
+    },
+    "FixTimestep:smd_couple": {
+      "status": "passed",
+      "time": 0.0438894,
+      "message": ""
+    },
+    "FixTimestep:smd_tether": {
+      "status": "passed",
+      "time": 0.0443033,
+      "message": ""
+    },
+    "FixTimestep:sph": {
+      "status": "passed",
+      "time": 0.0252273,
+      "message": ""
+    },
+    "FixTimestep:spring": {
+      "status": "passed",
+      "time": 0.208083,
+      "message": ""
+    },
+    "FixTimestep:spring_chunk": {
+      "status": "passed",
+      "time": 0.0436124,
+      "message": ""
+    },
+    "FixTimestep:spring_couple": {
+      "status": "passed",
+      "time": 0.207728,
+      "message": ""
+    },
+    "FixTimestep:spring_rg": {
+      "status": "passed",
+      "time": 0.213415,
+      "message": ""
+    },
+    "FixTimestep:spring_self": {
+      "status": "passed",
+      "time": 0.211355,
+      "message": ""
+    },
+    "FixTimestep:spring_self_atom": {
+      "status": "passed",
+      "time": 0.0442053,
+      "message": ""
+    },
+    "FixTimestep:spring_self_equal": {
+      "status": "passed",
+      "time": 0.0439268,
+      "message": ""
+    },
+    "FixTimestep:spring_tether": {
+      "status": "passed",
+      "time": 0.20464,
+      "message": ""
+    },
+    "FixTimestep:temp_berendsen": {
+      "status": "passed",
+      "time": 0.208623,
+      "message": ""
+    },
+    "FixTimestep:temp_csld": {
+      "status": "passed",
+      "time": 0.0447652,
+      "message": ""
+    },
+    "FixTimestep:temp_csvr": {
+      "status": "passed",
+      "time": 0.205825,
+      "message": ""
+    },
+    "FixTimestep:temp_rescale": {
+      "status": "passed",
+      "time": 0.20725,
+      "message": ""
+    },
+    "FixTimestep:thermal_conductivity": {
+      "status": "passed",
+      "time": 0.0451551,
+      "message": ""
+    },
+    "FixTimestep:ti_spring": {
+      "status": "passed",
+      "time": 0.212392,
+      "message": ""
+    },
+    "FixTimestep:tmd": {
+      "status": "passed",
+      "time": 0.0357212,
+      "message": ""
+    },
+    "FixTimestep:viscosity": {
+      "status": "passed",
+      "time": 0.0471415,
+      "message": ""
+    },
+    "FixTimestep:viscous": {
+      "status": "passed",
+      "time": 0.205079,
+      "message": ""
+    },
+    "FixTimestep:viscous_nonlinear": {
+      "status": "passed",
+      "time": 0.157801,
+      "message": ""
+    },
+    "FixTimestep:viscous_sphere": {
+      "status": "passed",
+      "time": 0.158875,
+      "message": ""
+    },
+    "FixTimestep:wall_body_polygon": {
+      "status": "passed",
+      "time": 0.0254169,
+      "message": ""
+    },
+    "FixTimestep:wall_body_polygon_history": {
+      "status": "passed",
+      "time": 0.0252741,
+      "message": ""
+    },
+    "FixTimestep:wall_body_polyhedron": {
+      "status": "passed",
+      "time": 0.0227484,
+      "message": ""
+    },
+    "FixTimestep:wall_body_polyhedron_granular": {
+      "status": "passed",
+      "time": 0.0258026,
+      "message": ""
+    },
+    "FixTimestep:wall_body_polyhedron_history": {
+      "status": "passed",
+      "time": 0.0231552,
+      "message": ""
+    },
+    "FixTimestep:wall_flow": {
+      "status": "passed",
+      "time": 0.0351991,
+      "message": ""
+    },
+    "FixTimestep:wall_gran": {
+      "status": "passed",
+      "time": 0.140403,
+      "message": ""
+    },
+    "FixTimestep:wall_harmonic_const": {
+      "status": "passed",
+      "time": 0.209756,
+      "message": ""
+    },
+    "FixTimestep:wall_harmonic_outside": {
+      "status": "passed",
+      "time": 0.207334,
+      "message": ""
+    },
+    "FixTimestep:wall_lepton_const": {
+      "status": "passed",
+      "time": 0.0262074,
+      "message": ""
+    },
+    "FixTimestep:wall_lj1043_const": {
+      "status": "passed",
+      "time": 0.207345,
+      "message": ""
+    },
+    "FixTimestep:wall_lj126_const": {
+      "status": "passed",
+      "time": 0.210155,
+      "message": ""
+    },
+    "FixTimestep:wall_lj93_const": {
+      "status": "passed",
+      "time": 0.211718,
+      "message": ""
+    },
+    "FixTimestep:wall_morse_const": {
+      "status": "passed",
+      "time": 0.210448,
+      "message": ""
+    },
+    "FixTimestep:wall_piston": {
+      "status": "passed",
+      "time": 0.235929,
+      "message": ""
+    },
+    "FixTimestep:wall_piston_temp": {
+      "status": "passed",
+      "time": 0.0350229,
+      "message": ""
+    },
+    "FixTimestep:wall_reflect": {
+      "status": "passed",
+      "time": 0.216845,
+      "message": ""
+    },
+    "FixTimestep:wall_reflect_stochastic": {
+      "status": "passed",
+      "time": 0.0363816,
+      "message": ""
+    },
+    "FixTimestep:wall_region_harmonic": {
+      "status": "passed",
+      "time": 0.212387,
+      "message": ""
+    },
+    "FixTimestep:wall_region_lj1043": {
+      "status": "passed",
+      "time": 0.209515,
+      "message": ""
+    },
+    "FixTimestep:wall_region_lj126": {
+      "status": "passed",
+      "time": 0.211695,
+      "message": ""
+    },
+    "FixTimestep:wall_region_lj93": {
+      "status": "passed",
+      "time": 0.209639,
+      "message": ""
+    },
+    "FixTimestep:wall_region_morse": {
+      "status": "passed",
+      "time": 0.210575,
+      "message": ""
+    },
+    "FixTimestep:wall_region_sphere": {
+      "status": "passed",
+      "time": 0.211837,
+      "message": ""
+    },
+    "FixTimestep:wall_table_linear": {
+      "status": "passed",
+      "time": 0.0487542,
+      "message": ""
+    },
+    "FixTimestep:wall_table_spline": {
+      "status": "passed",
+      "time": 0.0474068,
+      "message": ""
+    },
+    "MinStyle:abcfire": {
+      "status": "passed",
+      "time": 0.408522,
+      "message": ""
+    },
+    "MinStyle:boxrelax-aniso": {
+      "status": "passed",
+      "time": 1.12063,
+      "message": ""
+    },
+    "MinStyle:boxrelax-iso": {
+      "status": "passed",
+      "time": 1.07139,
+      "message": ""
+    },
+    "MinStyle:cg-backtrack": {
+      "status": "passed",
+      "time": 0.0388704,
+      "message": ""
+    },
+    "MinStyle:cg-dmax": {
+      "status": "passed",
+      "time": 0.408648,
+      "message": ""
+    },
+    "MinStyle:cg-forcezero": {
+      "status": "passed",
+      "time": 0.0323055,
+      "message": ""
+    },
+    "MinStyle:cg": {
+      "status": "passed",
+      "time": 0.503094,
+      "message": ""
+    },
+    "MinStyle:fire-verlet": {
+      "status": "passed",
+      "time": 0.414837,
+      "message": ""
+    },
+    "MinStyle:fire": {
+      "status": "passed",
+      "time": 0.417612,
+      "message": ""
+    },
+    "MinStyle:hftn": {
+      "status": "passed",
+      "time": 0.181427,
+      "message": ""
+    },
+    "MinStyle:quickmin": {
+      "status": "passed",
+      "time": 0.398036,
+      "message": ""
+    },
+    "MinStyle:sd": {
+      "status": "passed",
+      "time": 0.715808,
+      "message": ""
+    },
+    "OutputStyle:compute-ackland_atom": {
+      "status": "passed",
+      "time": 0.0633596,
+      "message": ""
+    },
+    "OutputStyle:compute-adf": {
+      "status": "passed",
+      "time": 0.0988689,
+      "message": ""
+    },
+    "OutputStyle:compute-aggregate_atom": {
+      "status": "passed",
+      "time": 0.0983532,
+      "message": ""
+    },
+    "OutputStyle:compute-angle": {
+      "status": "passed",
+      "time": 0.100787,
+      "message": ""
+    },
+    "OutputStyle:compute-angle_local": {
+      "status": "passed",
+      "time": 0.104344,
+      "message": ""
+    },
+    "OutputStyle:compute-angmom_chunk": {
+      "status": "passed",
+      "time": 0.101068,
+      "message": ""
+    },
+    "OutputStyle:compute-ave_sphere_atom": {
+      "status": "passed",
+      "time": 0.100054,
+      "message": ""
+    },
+    "OutputStyle:compute-basal_atom": {
+      "status": "passed",
+      "time": 0.0668179,
+      "message": ""
+    },
+    "OutputStyle:compute-bond": {
+      "status": "passed",
+      "time": 0.101117,
+      "message": ""
+    },
+    "OutputStyle:compute-bond_local": {
+      "status": "passed",
+      "time": 0.100796,
+      "message": ""
+    },
+    "OutputStyle:compute-born_matrix": {
+      "status": "passed",
+      "time": 0.100814,
+      "message": ""
+    },
+    "OutputStyle:compute-born_matrix_numdiff": {
+      "status": "passed",
+      "time": 0.12174,
+      "message": ""
+    },
+    "OutputStyle:compute-centro_atom": {
+      "status": "passed",
+      "time": 0.0670628,
+      "message": ""
+    },
+    "OutputStyle:compute-centroid_stress_atom": {
+      "status": "passed",
+      "time": 0.0306528,
+      "message": ""
+    },
+    "OutputStyle:compute-chunk_atom": {
+      "status": "passed",
+      "time": 0.0989811,
+      "message": ""
+    },
+    "OutputStyle:compute-chunk_spread_atom": {
+      "status": "passed",
+      "time": 0.100425,
+      "message": ""
+    },
+    "OutputStyle:compute-cluster_atom": {
+      "status": "passed",
+      "time": 0.0985966,
+      "message": ""
+    },
+    "OutputStyle:compute-cna_atom": {
+      "status": "passed",
+      "time": 0.0653719,
+      "message": ""
+    },
+    "OutputStyle:compute-cnp_atom": {
+      "status": "passed",
+      "time": 0.0777934,
+      "message": ""
+    },
+    "OutputStyle:compute-com": {
+      "status": "passed",
+      "time": 0.0971708,
+      "message": ""
+    },
+    "OutputStyle:compute-com_chunk": {
+      "status": "passed",
+      "time": 0.100957,
+      "message": ""
+    },
+    "OutputStyle:compute-composition_atom": {
+      "status": "passed",
+      "time": 0.101694,
+      "message": ""
+    },
+    "OutputStyle:compute-contact_atom": {
+      "status": "passed",
+      "time": 0.0342622,
+      "message": ""
+    },
+    "OutputStyle:compute-coord_atom": {
+      "status": "passed",
+      "time": 0.100781,
+      "message": ""
+    },
+    "OutputStyle:compute-count_type": {
+      "status": "passed",
+      "time": 0.0986905,
+      "message": ""
+    },
+    "OutputStyle:compute-count_type_atom": {
+      "status": "passed",
+      "time": 0.0995593,
+      "message": ""
+    },
+    "OutputStyle:compute-dihedral": {
+      "status": "passed",
+      "time": 0.102049,
+      "message": ""
+    },
+    "OutputStyle:compute-dihedral_local": {
+      "status": "passed",
+      "time": 0.0988897,
+      "message": ""
+    },
+    "OutputStyle:compute-dipole": {
+      "status": "passed",
+      "time": 0.101213,
+      "message": ""
+    },
+    "OutputStyle:compute-dipole_chunk": {
+      "status": "passed",
+      "time": 0.099668,
+      "message": ""
+    },
+    "OutputStyle:compute-dipole_tip4p": {
+      "status": "passed",
+      "time": 0.0755134,
+      "message": ""
+    },
+    "OutputStyle:compute-displace_atom": {
+      "status": "passed",
+      "time": 0.0993933,
+      "message": ""
+    },
+    "OutputStyle:compute-dpd": {
+      "status": "passed",
+      "time": 0.0684592,
+      "message": ""
+    },
+    "OutputStyle:compute-dpd_atom": {
+      "status": "passed",
+      "time": 0.0697973,
+      "message": ""
+    },
+    "OutputStyle:compute-edpd_temp_atom": {
+      "status": "passed",
+      "time": 0.021775,
+      "message": ""
+    },
+    "OutputStyle:compute-efield_wolf_atom": {
+      "status": "passed",
+      "time": 0.100528,
+      "message": ""
+    },
+    "OutputStyle:compute-entropy_atom": {
+      "status": "passed",
+      "time": 0.0639561,
+      "message": ""
+    },
+    "OutputStyle:compute-erotate_asphere": {
+      "status": "passed",
+      "time": 0.0782502,
+      "message": ""
+    },
+    "OutputStyle:compute-erotate_rigid": {
+      "status": "passed",
+      "time": 0.123758,
+      "message": ""
+    },
+    "OutputStyle:compute-erotate_sphere": {
+      "status": "passed",
+      "time": 0.0304731,
+      "message": ""
+    },
+    "OutputStyle:compute-erotate_sphere_atom": {
+      "status": "passed",
+      "time": 0.0285888,
+      "message": ""
+    },
+    "OutputStyle:compute-fep": {
+      "status": "passed",
+      "time": 0.102089,
+      "message": ""
+    },
+    "OutputStyle:compute-fep_ta": {
+      "status": "passed",
+      "time": 0.101131,
+      "message": ""
+    },
+    "OutputStyle:compute-force_tally": {
+      "status": "passed",
+      "time": 0.0202738,
+      "message": ""
+    },
+    "OutputStyle:compute-fragment_atom": {
+      "status": "passed",
+      "time": 0.104927,
+      "message": ""
+    },
+    "OutputStyle:compute-gaussian_grid_local": {
+      "status": "passed",
+      "time": 0.0265965,
+      "message": ""
+    },
+    "OutputStyle:compute-global_atom": {
+      "status": "passed",
+      "time": 0.0994976,
+      "message": ""
+    },
+    "OutputStyle:compute-global_atom_fix": {
+      "status": "passed",
+      "time": 0.121979,
+      "message": ""
+    },
+    "OutputStyle:compute-group_group": {
+      "status": "passed",
+      "time": 0.101283,
+      "message": ""
+    },
+    "OutputStyle:compute-gyration": {
+      "status": "passed",
+      "time": 0.100071,
+      "message": ""
+    },
+    "OutputStyle:compute-gyration_chunk": {
+      "status": "passed",
+      "time": 0.10127,
+      "message": ""
+    },
+    "OutputStyle:compute-gyration_shape": {
+      "status": "passed",
+      "time": 0.100886,
+      "message": ""
+    },
+    "OutputStyle:compute-gyration_shape_chunk": {
+      "status": "passed",
+      "time": 0.100801,
+      "message": ""
+    },
+    "OutputStyle:compute-hbond_local": {
+      "status": "passed",
+      "time": 0.101633,
+      "message": ""
+    },
+    "OutputStyle:compute-heat_flux": {
+      "status": "passed",
+      "time": 0.106815,
+      "message": ""
+    },
+    "OutputStyle:compute-heat_flux_tally": {
+      "status": "passed",
+      "time": 0.023673,
+      "message": ""
+    },
+    "OutputStyle:compute-heat_flux_virial_tally": {
+      "status": "passed",
+      "time": 0.0241453,
+      "message": ""
+    },
+    "OutputStyle:compute-hexorder_atom": {
+      "status": "passed",
+      "time": 0.0664872,
+      "message": ""
+    },
+    "OutputStyle:compute-hma": {
+      "status": "passed",
+      "time": 0.0612376,
+      "message": ""
+    },
+    "OutputStyle:compute-improper": {
+      "status": "passed",
+      "time": 0.103168,
+      "message": ""
+    },
+    "OutputStyle:compute-improper_local": {
+      "status": "passed",
+      "time": 0.101081,
+      "message": ""
+    },
+    "OutputStyle:compute-inertia": {
+      "status": "passed",
+      "time": 0.028486,
+      "message": ""
+    },
+    "OutputStyle:compute-inertia_chunk": {
+      "status": "passed",
+      "time": 0.0993668,
+      "message": ""
+    },
+    "OutputStyle:compute-ke": {
+      "status": "passed",
+      "time": 0.0989772,
+      "message": ""
+    },
+    "OutputStyle:compute-ke_atom": {
+      "status": "passed",
+      "time": 0.100691,
+      "message": ""
+    },
+    "OutputStyle:compute-ke_rigid": {
+      "status": "passed",
+      "time": 0.12566,
+      "message": ""
+    },
+    "OutputStyle:compute-mbar": {
+      "status": "passed",
+      "time": 0.103529,
+      "message": ""
+    },
+    "OutputStyle:compute-mbar_charge": {
+      "status": "passed",
+      "time": 0.111912,
+      "message": ""
+    },
+    "OutputStyle:compute-momentum": {
+      "status": "passed",
+      "time": 0.0989227,
+      "message": ""
+    },
+    "OutputStyle:compute-msd": {
+      "status": "passed",
+      "time": 0.100521,
+      "message": ""
+    },
+    "OutputStyle:compute-msd_chunk": {
+      "status": "passed",
+      "time": 0.100533,
+      "message": ""
+    },
+    "OutputStyle:compute-msd_nongauss": {
+      "status": "passed",
+      "time": 0.0983794,
+      "message": ""
+    },
+    "OutputStyle:compute-omega_chunk": {
+      "status": "passed",
+      "time": 0.0998203,
+      "message": ""
+    },
+    "OutputStyle:compute-orientorder_atom": {
+      "status": "passed",
+      "time": 0.0685841,
+      "message": ""
+    },
+    "OutputStyle:compute-pace_dgrad": {
+      "status": "passed",
+      "time": 0.132678,
+      "message": ""
+    },
+    "OutputStyle:compute-pair": {
+      "status": "passed",
+      "time": 0.10085,
+      "message": ""
+    },
+    "OutputStyle:compute-pair_local": {
+      "status": "passed",
+      "time": 0.0665396,
+      "message": ""
+    },
+    "OutputStyle:compute-pe": {
+      "status": "passed",
+      "time": 0.103407,
+      "message": ""
+    },
+    "OutputStyle:compute-pe_atom": {
+      "status": "passed",
+      "time": 0.101004,
+      "message": ""
+    },
+    "OutputStyle:compute-pe_mol_tally": {
+      "status": "passed",
+      "time": 0.0241157,
+      "message": ""
+    },
+    "OutputStyle:compute-pe_tally": {
+      "status": "passed",
+      "time": 0.0224301,
+      "message": ""
+    },
+    "OutputStyle:compute-pressure": {
+      "status": "passed",
+      "time": 0.100154,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom": {
+      "status": "passed",
+      "time": 0.100133,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_all": {
+      "status": "passed",
+      "time": 0.0635719,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_custom": {
+      "status": "passed",
+      "time": 0.102571,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_dipole": {
+      "status": "passed",
+      "time": 0.137698,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_ellipsoid": {
+      "status": "passed",
+      "time": 0.0798713,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_history": {
+      "status": "passed",
+      "time": 0.114639,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_sph": {
+      "status": "passed",
+      "time": 0.0227915,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_sphere": {
+      "status": "passed",
+      "time": 0.0310802,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_spin": {
+      "status": "passed",
+      "time": 0.0416832,
+      "message": ""
+    },
+    "OutputStyle:compute-property_atom_triclinic": {
+      "status": "passed",
+      "time": 0.113446,
+      "message": ""
+    },
+    "OutputStyle:compute-property_chunk": {
+      "status": "passed",
+      "time": 0.0994011,
+      "message": ""
+    },
+    "OutputStyle:compute-property_chunk_coord": {
+      "status": "passed",
+      "time": 0.101459,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local": {
+      "status": "passed",
+      "time": 0.0993009,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local_angle": {
+      "status": "passed",
+      "time": 0.105746,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local_dihedral": {
+      "status": "passed",
+      "time": 0.106068,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local_improper": {
+      "status": "passed",
+      "time": 0.100356,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local_pair": {
+      "status": "passed",
+      "time": 0.0985151,
+      "message": ""
+    },
+    "OutputStyle:compute-property_local_pair_radius": {
+      "status": "passed",
+      "time": 0.0275697,
+      "message": ""
+    },
+    "OutputStyle:compute-ptm_atom": {
+      "status": "passed",
+      "time": 0.0249888,
+      "message": ""
+    },
+    "OutputStyle:compute-rattlers_atom": {
+      "status": "passed",
+      "time": 0.101729,
+      "message": ""
+    },
+    "OutputStyle:compute-rdf": {
+      "status": "passed",
+      "time": 0.100489,
+      "message": ""
+    },
+    "OutputStyle:compute-reaxff_atom": {
+      "status": "passed",
+      "time": 1.54543,
+      "message": ""
+    },
+    "OutputStyle:compute-reduce": {
+      "status": "passed",
+      "time": 0.0991438,
+      "message": ""
+    },
+    "OutputStyle:compute-reduce_chunk": {
+      "status": "passed",
+      "time": 0.0990209,
+      "message": ""
+    },
+    "OutputStyle:compute-reduce_region": {
+      "status": "passed",
+      "time": 0.106992,
+      "message": ""
+    },
+    "OutputStyle:compute-rigid_atom": {
+      "status": "passed",
+      "time": 0.127162,
+      "message": ""
+    },
+    "OutputStyle:compute-rigid_atom_tri": {
+      "status": "passed",
+      "time": 0.139356,
+      "message": ""
+    },
+    "OutputStyle:compute-rigid_local": {
+      "status": "passed",
+      "time": 0.122806,
+      "message": ""
+    },
+    "OutputStyle:compute-saed": {
+      "status": "passed",
+      "time": 0.0258605,
+      "message": ""
+    },
+    "OutputStyle:compute-slice": {
+      "status": "passed",
+      "time": 0.101943,
+      "message": ""
+    },
+    "OutputStyle:compute-sna_atom": {
+      "status": "passed",
+      "time": 0.068966,
+      "message": ""
+    },
+    "OutputStyle:compute-sna_grid": {
+      "status": "passed",
+      "time": 0.0665953,
+      "message": ""
+    },
+    "OutputStyle:compute-sna_grid_local": {
+      "status": "passed",
+      "time": 0.0260654,
+      "message": ""
+    },
+    "OutputStyle:compute-snad_atom": {
+      "status": "passed",
+      "time": 0.0875266,
+      "message": ""
+    },
+    "OutputStyle:compute-snap": {
+      "status": "passed",
+      "time": 0.0874698,
+      "message": ""
+    },
+    "OutputStyle:compute-snav_atom": {
+      "status": "passed",
+      "time": 0.0949031,
+      "message": ""
+    },
+    "OutputStyle:compute-sph_e_atom": {
+      "status": "passed",
+      "time": 0.0225354,
+      "message": ""
+    },
+    "OutputStyle:compute-sph_rho_atom": {
+      "status": "passed",
+      "time": 0.0238426,
+      "message": ""
+    },
+    "OutputStyle:compute-sph_t_atom": {
+      "status": "passed",
+      "time": 0.0230998,
+      "message": ""
+    },
+    "OutputStyle:compute-spin": {
+      "status": "passed",
+      "time": 0.0417518,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_atom": {
+      "status": "passed",
+      "time": 0.105052,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_cartesian": {
+      "status": "passed",
+      "time": 0.100434,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_cylinder": {
+      "status": "passed",
+      "time": 0.0694186,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_mop": {
+      "status": "passed",
+      "time": 0.0994462,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_mop_profile": {
+      "status": "passed",
+      "time": 0.101139,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_spherical": {
+      "status": "passed",
+      "time": 0.0662264,
+      "message": ""
+    },
+    "OutputStyle:compute-stress_tally": {
+      "status": "passed",
+      "time": 0.0209062,
+      "message": ""
+    },
+    "OutputStyle:compute-tdpd_cc_atom": {
+      "status": "passed",
+      "time": 0.024085,
+      "message": ""
+    },
+    "OutputStyle:compute-temp": {
+      "status": "passed",
+      "time": 0.10034,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_asphere": {
+      "status": "passed",
+      "time": 0.0795458,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_chunk": {
+      "status": "passed",
+      "time": 0.100919,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_com": {
+      "status": "passed",
+      "time": 0.100691,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_cs": {
+      "status": "passed",
+      "time": 1.16069,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_deform": {
+      "status": "passed",
+      "time": 0.108015,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_partial": {
+      "status": "passed",
+      "time": 0.102045,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_profile": {
+      "status": "passed",
+      "time": 0.10744,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_profile_triclinic": {
+      "status": "passed",
+      "time": 0.11965,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_ramp": {
+      "status": "passed",
+      "time": 0.102175,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_region": {
+      "status": "passed",
+      "time": 0.103599,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_rotate": {
+      "status": "passed",
+      "time": 0.101333,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_sphere": {
+      "status": "passed",
+      "time": 0.0287105,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_sphere_dof_rotate": {
+      "status": "passed",
+      "time": 0.0303249,
+      "message": ""
+    },
+    "OutputStyle:compute-temp_sphere_region_bias": {
+      "status": "passed",
+      "time": 0.0287796,
+      "message": ""
+    },
+    "OutputStyle:compute-ti": {
+      "status": "passed",
+      "time": 0.100905,
+      "message": ""
+    },
+    "OutputStyle:compute-torque_chunk": {
+      "status": "passed",
+      "time": 0.0975018,
+      "message": ""
+    },
+    "OutputStyle:compute-vacf": {
+      "status": "passed",
+      "time": 0.100285,
+      "message": ""
+    },
+    "OutputStyle:compute-vacf_chunk": {
+      "status": "passed",
+      "time": 0.100684,
+      "message": ""
+    },
+    "OutputStyle:compute-vcm_chunk": {
+      "status": "passed",
+      "time": 0.0974338,
+      "message": ""
+    },
+    "OutputStyle:compute-viscosity_cos": {
+      "status": "passed",
+      "time": 0.0249805,
+      "message": ""
+    },
+    "OutputStyle:compute-voronoi_atom": {
+      "status": "passed",
+      "time": 0.025357,
+      "message": ""
+    },
+    "OutputStyle:compute-xrd": {
+      "status": "passed",
+      "time": 0.0254034,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_atom": {
+      "status": "passed",
+      "time": 0.111064,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_chunk": {
+      "status": "passed",
+      "time": 0.109041,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_correlate": {
+      "status": "passed",
+      "time": 0.138083,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_histo": {
+      "status": "passed",
+      "time": 0.111595,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_histo_weight": {
+      "status": "passed",
+      "time": 0.109189,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_moments": {
+      "status": "passed",
+      "time": 0.128153,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_time": {
+      "status": "passed",
+      "time": 0.136409,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_time_array_varlen": {
+      "status": "passed",
+      "time": 0.119963,
+      "message": ""
+    },
+    "OutputStyle:fix-output-ave_time_vector_varlen": {
+      "status": "passed",
+      "time": 0.122416,
+      "message": ""
+    },
+    "OutputStyle:fix-output-numdiff": {
+      "status": "passed",
+      "time": 0.802379,
+      "message": ""
+    },
+    "OutputStyle:fix-output-numdiff_virial": {
+      "status": "passed",
+      "time": 0.154842,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_force": {
+      "status": "passed",
+      "time": 0.106351,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_all": {
+      "status": "passed",
+      "time": 0.120606,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_cfv": {
+      "status": "passed",
+      "time": 0.125508,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_com": {
+      "status": "passed",
+      "time": 0.118716,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_dipole": {
+      "status": "passed",
+      "time": 0.159941,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_ellipsoid": {
+      "status": "passed",
+      "time": 0.101128,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_initial": {
+      "status": "passed",
+      "time": 0.0980577,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_thresh": {
+      "status": "passed",
+      "time": 0.121628,
+      "message": ""
+    },
+    "OutputStyle:fix-output-store_state_triclinic": {
+      "status": "passed",
+      "time": 0.132326,
+      "message": ""
+    },
+    "OutputStyle:fix-output-vector": {
+      "status": "passed",
+      "time": 0.113405,
+      "message": ""
+    },
+    "DihedralStyle:charmm": {
+      "status": "passed",
+      "time": 0.134234,
+      "message": ""
+    },
+    "DihedralStyle:charmmfsw": {
+      "status": "passed",
+      "time": 0.144858,
+      "message": ""
+    },
+    "DihedralStyle:class2": {
+      "status": "passed",
+      "time": 0.174385,
+      "message": ""
+    },
+    "DihedralStyle:class2xe": {
+      "status": "passed",
+      "time": 0.181131,
+      "message": ""
+    },
+    "DihedralStyle:cosine_shift_exp": {
+      "status": "passed",
+      "time": 0.170021,
+      "message": ""
+    },
+    "DihedralStyle:cosine_squared_restricted": {
+      "status": "passed",
+      "time": 0.172797,
+      "message": ""
+    },
+    "DihedralStyle:fourier": {
+      "status": "passed",
+      "time": 0.17067,
+      "message": ""
+    },
+    "DihedralStyle:harmonic": {
+      "status": "passed",
+      "time": 0.168704,
+      "message": ""
+    },
+    "DihedralStyle:helix": {
+      "status": "passed",
+      "time": 0.171507,
+      "message": ""
+    },
+    "DihedralStyle:hybrid": {
+      "status": "passed",
+      "time": 0.183475,
+      "message": ""
+    },
+    "DihedralStyle:lepton": {
+      "status": "passed",
+      "time": 0.0270927,
+      "message": ""
+    },
+    "DihedralStyle:multi_harmonic": {
+      "status": "passed",
+      "time": 0.1745,
+      "message": ""
+    },
+    "DihedralStyle:nharmonic": {
+      "status": "passed",
+      "time": 0.173427,
+      "message": ""
+    },
+    "DihedralStyle:opls": {
+      "status": "passed",
+      "time": 0.173977,
+      "message": ""
+    },
+    "DihedralStyle:quadratic": {
+      "status": "passed",
+      "time": 0.170133,
+      "message": ""
+    },
+    "DihedralStyle:spherical": {
+      "status": "passed",
+      "time": 0.180519,
+      "message": ""
+    },
+    "DihedralStyle:table_cut_linear": {
+      "status": "passed",
+      "time": 0.276267,
+      "message": ""
+    },
+    "DihedralStyle:table_cut_spline": {
+      "status": "passed",
+      "time": 0.2914,
+      "message": ""
+    },
+    "DihedralStyle:table_linear": {
+      "status": "passed",
+      "time": 0.272858,
+      "message": ""
+    },
+    "DihedralStyle:table_spline": {
+      "status": "passed",
+      "time": 0.284865,
+      "message": ""
+    },
+    "DihedralStyle:zero": {
+      "status": "passed",
+      "time": 0.0563014,
+      "message": ""
+    },
+    "ImproperStyle:class2": {
+      "status": "passed",
+      "time": 0.165172,
+      "message": ""
+    },
+    "ImproperStyle:cossq": {
+      "status": "passed",
+      "time": 0.167608,
+      "message": ""
+    },
+    "ImproperStyle:cvff": {
+      "status": "passed",
+      "time": 0.166247,
+      "message": ""
+    },
+    "ImproperStyle:distance": {
+      "status": "passed",
+      "time": 0.163833,
+      "message": ""
+    },
+    "ImproperStyle:distharm": {
+      "status": "passed",
+      "time": 0.165885,
+      "message": ""
+    },
+    "ImproperStyle:fourier": {
+      "status": "passed",
+      "time": 0.167402,
+      "message": ""
+    },
+    "ImproperStyle:harmonic": {
+      "status": "passed",
+      "time": 0.164961,
+      "message": ""
+    },
+    "ImproperStyle:hybrid": {
+      "status": "passed",
+      "time": 0.178101,
+      "message": ""
+    },
+    "ImproperStyle:inversion_harmonic": {
+      "status": "passed",
+      "time": 0.165402,
+      "message": ""
+    },
+    "ImproperStyle:ring": {
+      "status": "passed",
+      "time": 0.164179,
+      "message": ""
+    },
+    "ImproperStyle:sqdistharm": {
+      "status": "passed",
+      "time": 0.170594,
+      "message": ""
+    },
+    "ImproperStyle:umbrella": {
+      "status": "passed",
+      "time": 0.16876,
+      "message": ""
+    },
+    "ImproperStyle:zero": {
+      "status": "passed",
+      "time": 0.056136,
+      "message": ""
+    },
+    "TestPairList": {
+      "status": "passed",
+      "time": 0.0206953,
+      "message": ""
+    },
+    "FixSymmetry": {
+      "status": "passed",
+      "time": 0.118097,
+      "message": ""
+    },
+    "DEM01:hertz-tsuji-3d-si": {
+      "status": "passed",
+      "time": 0.0480056,
+      "message": ""
+    },
+    "DEM01:hertz-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0454162,
+      "message": ""
+    },
+    "DEM01:hooke-2d-lj": {
+      "status": "passed",
+      "time": 0.0295791,
+      "message": ""
+    },
+    "DEM01:hooke-massvel-3d-si": {
+      "status": "passed",
+      "time": 0.0304866,
+      "message": ""
+    },
+    "DEM01:hooke-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0305108,
+      "message": ""
+    },
+    "DEM01:hooke-twosphere-e02-3d-si": {
+      "status": "passed",
+      "time": 0.0273331,
+      "message": ""
+    },
+    "DEM01:hooke-twosphere-e08-3d-si": {
+      "status": "passed",
+      "time": 0.030832,
+      "message": ""
+    },
+    "DEM01:hooke-veldamp-3d-si": {
+      "status": "passed",
+      "time": 0.0286182,
+      "message": ""
+    },
+    "DEM01:hookehistory-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0285866,
+      "message": ""
+    },
+    "DEM01:legacy-hooke-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0301107,
+      "message": ""
+    },
+    "DEM01:legacy-hookehistory-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0282073,
+      "message": ""
+    },
+    "DEM02:hertz-peak-3d-si": {
+      "status": "passed",
+      "time": 0.0274658,
+      "message": ""
+    },
+    "DEM02:hertz-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0265059,
+      "message": ""
+    },
+    "DEM02:hertzmaterial-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.027457,
+      "message": ""
+    },
+    "DEM02:legacy-hertzhistory-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0300794,
+      "message": ""
+    },
+    "DEM03:hertz-peak-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0285905,
+      "message": ""
+    },
+    "DEM03:hertz-tsuji-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0305951,
+      "message": ""
+    },
+    "DEM03:hertz-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0276013,
+      "message": ""
+    },
+    "DEM03:hertzmaterial-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0275989,
+      "message": ""
+    },
+    "DEM03:legacy-hertzhistory-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0320733,
+      "message": ""
+    },
+    "DEM04:hertz-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0360795,
+      "message": ""
+    },
+    "DEM04:hookehistory-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0339565,
+      "message": ""
+    },
+    "DEM04:legacy-hookehistory-grazing-3d-si": {
+      "status": "passed",
+      "time": 0.0378504,
+      "message": ""
+    },
+    "DEM04:legacy-hookehistory-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0340413,
+      "message": ""
+    },
+    "DEM04:mindlin-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0397981,
+      "message": ""
+    },
+    "DEM04:mindlin-oblique-highvt-3d-si": {
+      "status": "passed",
+      "time": 0.0371897,
+      "message": ""
+    },
+    "DEM04:mindlin-oblique-lowvt-3d-si": {
+      "status": "passed",
+      "time": 0.0350459,
+      "message": ""
+    },
+    "DEM04:mindlin-sticking-3d-si": {
+      "status": "passed",
+      "time": 0.0351365,
+      "message": ""
+    },
+    "DEM04:mindlinforce-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0355274,
+      "message": ""
+    },
+    "DEM04:mindlinrescale-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0379921,
+      "message": ""
+    },
+    "DEM04:mindlinrescaleforce-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0374731,
+      "message": ""
+    },
+    "DEM04:oblique-grazing-3d-si": {
+      "status": "passed",
+      "time": 0.0364875,
+      "message": ""
+    },
+    "DEM05:hookehistory-slip-3d-si": {
+      "status": "passed",
+      "time": 0.360096,
+      "message": ""
+    },
+    "DEM05:legacy-hookehistory-slip-3d-si": {
+      "status": "passed",
+      "time": 0.356643,
+      "message": ""
+    },
+    "DEM05:mindlin-slip-3d-si": {
+      "status": "passed",
+      "time": 0.363944,
+      "message": ""
+    },
+    "DEM05:slip-mu02-3d-si": {
+      "status": "passed",
+      "time": 0.700134,
+      "message": ""
+    },
+    "DEM05:sliptime-3d-si": {
+      "status": "passed",
+      "time": 0.591613,
+      "message": ""
+    },
+    "DEM06:hookehistory-spin-3d-si": {
+      "status": "passed",
+      "time": 0.0287488,
+      "message": ""
+    },
+    "DEM06:mindlin-spin-heavy-3d-si": {
+      "status": "passed",
+      "time": 0.0287537,
+      "message": ""
+    },
+    "DEM06:spin-identical-3d-si": {
+      "status": "passed",
+      "time": 0.0294355,
+      "message": ""
+    },
+    "DEM06:spin-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0271301,
+      "message": ""
+    },
+    "DEM07:hertz-rolling-3d-si": {
+      "status": "passed",
+      "time": 0.0406655,
+      "message": ""
+    },
+    "DEM07:hooke-rolling-3d-si": {
+      "status": "passed",
+      "time": 0.0399719,
+      "message": ""
+    },
+    "DEM07:incline-rolling-3d-si": {
+      "status": "passed",
+      "time": 0.0886903,
+      "message": ""
+    },
+    "DEM07:incline-static-3d-si": {
+      "status": "passed",
+      "time": 0.0553169,
+      "message": ""
+    },
+    "DEM07:rolling-mu02-3d-si": {
+      "status": "passed",
+      "time": 0.0324916,
+      "message": ""
+    },
+    "DEM08:dmt-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0266527,
+      "message": ""
+    },
+    "DEM08:dmt-wall-3d-si": {
+      "status": "passed",
+      "time": 0.0242805,
+      "message": ""
+    },
+    "DEM08:jkr-twosphere-3d-si": {
+      "status": "passed",
+      "time": 0.0266096,
+      "message": ""
+    },
+    "DEM09:viscous-linear-3d-si": {
+      "status": "passed",
+      "time": 0.0233891,
+      "message": ""
+    },
+    "DEM09:viscous-nonlinear-3d-si": {
+      "status": "passed",
+      "time": 0.0268622,
+      "message": ""
+    },
+    "DEM10:freefall-3d-si": {
+      "status": "passed",
+      "time": 0.0327804,
+      "message": ""
+    },
+    "DEM10:stack-3d-si": {
+      "status": "passed",
+      "time": 0.0397595,
+      "message": ""
+    },
+    "DEM11:regionwall-3d-si": {
+      "status": "passed",
+      "time": 0.0451382,
+      "message": ""
+    },
+    "DEM12:superellipsoid-3d": {
+      "status": "passed",
+      "time": 0.0282433,
+      "message": ""
+    },
+    "DEM13:twist-marshall-3d-si": {
+      "status": "passed",
+      "time": 0.0325716,
+      "message": ""
+    },
+    "DEM13:twist-sds-3d-si": {
+      "status": "passed",
+      "time": 0.0903607,
+      "message": ""
+    },
+    "DEM14:heat-area-3d-si": {
+      "status": "passed",
+      "time": 0.0582546,
+      "message": ""
+    },
+    "DEM14:heat-radius-3d-si": {
+      "status": "passed",
+      "time": 0.0600819,
+      "message": ""
+    },
+    "DEM15:hertz-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0324889,
+      "message": ""
+    },
+    "DEM15:hooke-oblique-3d-si": {
+      "status": "passed",
+      "time": 0.0332143,
+      "message": ""
+    },
+    "DEM16:mixed-3d-lj": {
+      "status": "passed",
+      "time": 0.081461,
+      "message": ""
+    },
+    "DEM16:rolltwist-3d-lj": {
+      "status": "passed",
+      "time": 0.101398,
+      "message": ""
+    }
+  }
+}

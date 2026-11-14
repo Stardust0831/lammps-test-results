@@ -1,14 +1,12 @@
 {
- "generated": "2026-11-13T19:58:45Z",
+ "generated": "2026-11-14T11:43:03Z",
  "url": "https://ci.lammps.org",
  "builders": 24,
  "pr_builders": 24,
  "workers": 31,
- "disconnected": [
-  "macmini"
- ],
+ "disconnected": [],
  "hardware": {
-  "updated": "2026-11-13T14:57:00-05:00",
+  "updated": "2026-11-14T06:42:00-05:00",
   "machines": {
    "rstudio": {
     "model": "Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz",

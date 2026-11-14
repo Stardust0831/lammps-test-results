@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-14T05:13:06Z",
+  "commit": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+  "branch": "develop",
+  "version": "patch_13Nov2026",
+  "url": "https://download.lammps.org/nightly/",
+  "folder": "2026-11-13",
+  "tasks": {
+    "boot": {
+      "seconds": 121,
+      "status": true
+    },
+    "shutdown": {
+      "seconds": 30,
+      "status": true
+    },
+    "macos": {
+      "seconds": 150,
+      "status": true
+    },
+    "linux": {
+      "seconds": 35,
+      "status": true
+    },
+    "static": {
+      "seconds": 76,
+      "status": true
+    },
+    "flatpak": {
+      "seconds": 837,
+      "status": true
+    },
+    "windows": {
+      "seconds": 896,
+      "status": true
+    }
+  }
+}

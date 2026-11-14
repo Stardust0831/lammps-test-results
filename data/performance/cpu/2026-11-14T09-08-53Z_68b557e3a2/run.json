@@ -1,0 +1,1139 @@
+{
+  "metadata": {
+    "title": "Performance cpu",
+    "generated": "2026-11-14T09:08:53Z",
+    "properties": {
+      "compiler": "Compiler: GNU C++ 16.2.1 20261029 (Red Hat 16.2.1-3) with OpenMP 5.2",
+      "operating_system": "OS: Linux \"Fedora Linux 44 (Forty Four)\" 7.2.15-200.fc44.x86_64 x86_64",
+      "mpi": "MPI v4.1: MPICH Version:      4.2.2",
+      "cpu": "AMD Ryzen Threadripper PRO 7985WX 64-Cores"
+    },
+    "branch": "develop",
+    "version": "patch_13Nov2026",
+    "sha": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+    "source_url": "https://download.lammps.org/performance/cpu-summary.json"
+  },
+  "entries": {
+    "lj-small-double-cpu-8x1": {
+      "category": "cpu-mpi",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 1000,
+      "samples": [
+        11913000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-small-double-omp-8x1": {
+      "category": "cpu-mpi",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 1300,
+      "samples": [
+        14975000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-small-double-kokkos-omp-8x1": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 1000,
+      "samples": [
+        11533000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-small-double-kokkos-omp-4x2": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 4,
+      "threads": 2,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 1000,
+      "samples": [
+        11381000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-small-double-kokkos-omp-2x4": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 2,
+      "threads": 4,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 840,
+      "samples": [
+        9463000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-small-double-kokkos-omp-1x8": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "small",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 1,
+      "threads": 8,
+      "gpus": 0,
+      "natoms": 1024000,
+      "steps": 680,
+      "samples": [
+        7498000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-large-double-cpu-8x1": {
+      "category": "cpu-mpi",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 130,
+      "samples": [
+        12192000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-large-double-omp-8x1": {
+      "category": "cpu-mpi",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 160,
+      "samples": [
+        14378000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "lj-large-double-kokkos-omp-8x1": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 140,
+      "samples": [
+        13127000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "lj-large-double-kokkos-omp-4x2": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 4,
+      "threads": 2,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 130,
+      "samples": [
+        12374000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "lj-large-double-kokkos-omp-2x4": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 2,
+      "threads": 4,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 120,
+      "samples": [
+        11251000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "lj-large-double-kokkos-omp-1x8": {
+      "category": "kokkos-omp",
+      "input": "lj",
+      "size": "large",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 1,
+      "threads": 8,
+      "gpus": 0,
+      "natoms": 8192000,
+      "steps": 96,
+      "samples": [
+        9094000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "airebo-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/airebo",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 65280,
+      "steps": 590,
+      "samples": [
+        430625.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "airebo-double-omp-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/airebo",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 65280,
+      "steps": 580,
+      "samples": [
+        429772.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "bop-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/bop",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 64000,
+      "steps": 2800,
+      "samples": [
+        2055000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "comb-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/comb",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32400,
+      "steps": 190,
+      "samples": [
+        68478.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.5
+    },
+    "eim-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/eim",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 7900,
+      "samples": [
+        2783000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "eim-double-omp-2x4": {
+      "category": "cpu-only",
+      "input": "cpu/eim",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 2,
+      "threads": 4,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 9200,
+      "samples": [
+        3298000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "eff-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/eff",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 64000,
+      "steps": 110,
+      "samples": [
+        81397.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "peri-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/peri",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 6800,
+      "samples": [
+        2534170.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "meam_spline-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/meam_spline",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 2600,
+      "samples": [
+        931247.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "meam_spline-double-omp-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/meam_spline",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 2800,
+      "samples": [
+        994641.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "polymorphic-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/polymorphic",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32768,
+      "steps": 16000,
+      "samples": [
+        5878000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "extep-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/extep",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32400,
+      "steps": 9800,
+      "samples": [
+        4519000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.64
+    },
+    "lcbop-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/lcbop",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32768,
+      "steps": 2700,
+      "samples": [
+        985613.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "tersoff_table-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/tersoff_table",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32768,
+      "steps": 16000,
+      "samples": [
+        5823000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "coul_streitz-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/coul_streitz",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 34560,
+      "steps": 92,
+      "samples": [
+        36000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "comb3-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/comb3",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 5456,
+      "steps": 690,
+      "samples": [
+        41496.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "atomswap-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/atomswap",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 16000,
+      "steps": 11000,
+      "samples": [
+        2045000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "gcmc-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/gcmc",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 40484,
+      "steps": 12000,
+      "samples": [
+        5452000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "widom-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/widom",
+      "size": "2x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 54000,
+      "steps": 11000,
+      "samples": [
+        6690000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "bondcreate-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/bondcreate",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 67000,
+      "samples": [
+        24850000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.65
+    },
+    "srd-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/srd",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 58872,
+      "steps": 520000,
+      "samples": [
+        353609000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "body_polyhedron-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/body_polyhedron",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 8192,
+      "steps": 4000,
+      "samples": [
+        378122.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "body_polygon-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/body_polygon",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 12800,
+      "steps": 44000,
+      "samples": [
+        6273000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "smd-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/smd",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 19600,
+      "steps": 16000,
+      "samples": [
+        2607550.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "ilp-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ilp",
+      "size": "2x2x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 21760,
+      "steps": 540,
+      "samples": [
+        137691.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "ilp-double-opt-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ilp",
+      "size": "2x2x1",
+      "precision": "double",
+      "package": "opt",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 21760,
+      "steps": 1600,
+      "samples": [
+        386896.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "kc-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/kc",
+      "size": "2x2x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 21760,
+      "steps": 580,
+      "samples": [
+        141017.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "ljlong-pppmdisp-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ljlong-pppmdisp",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 3100,
+      "samples": [
+        1239000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.48
+    },
+    "ljlong-pppmdisp-double-omp-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ljlong-pppmdisp",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 3200,
+      "samples": [
+        1274000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "ljlong-ewalddisp-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ljlong-ewalddisp",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 18000,
+      "steps": 1100,
+      "samples": [
+        216374.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "msm-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/msm",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 490,
+      "samples": [
+        186072.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "msm-double-omp-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/msm",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 410,
+      "samples": [
+        163882.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "rattle-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/rattle",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 28000,
+      "samples": [
+        11166000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "pppmdipole-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/pppmdipole",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32768,
+      "steps": 450,
+      "samples": [
+        160192.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "rhodo-respa-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/rhodo-respa",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 1300,
+      "samples": [
+        473068.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "rigid-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/rigid",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 44800,
+      "steps": 47000,
+      "samples": [
+        23074000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.59
+    },
+    "rigid-double-omp-2x4": {
+      "category": "cpu-only",
+      "input": "cpu/rigid",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 2,
+      "threads": 4,
+      "gpus": 0,
+      "natoms": 44800,
+      "steps": 70000,
+      "samples": [
+        33758000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "lubricate-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/lubricate",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 32000,
+      "steps": 80000,
+      "samples": [
+        28451000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "rigid-nvt-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/rigid-nvt",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 44800,
+      "steps": 39000,
+      "samples": [
+        18386000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "drude-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/drude",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 44000,
+      "steps": 2700,
+      "samples": [
+        1357000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "spce-respa-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/spce-respa",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 960,
+      "samples": [
+        374048.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "ilves-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/ilves",
+      "size": "1x1x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 36000,
+      "steps": 24000,
+      "samples": [
+        9906000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "rhodo-ilves-double-cpu-8x1": {
+      "category": "cpu-only",
+      "input": "cpu/rhodo-ilves",
+      "size": "2x2x1",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 128000,
+      "steps": 710,
+      "samples": [
+        1025000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "tip4p-small-double-kokkos-omp-8x1": {
+      "category": "kokkos-omp",
+      "input": "tip4p",
+      "size": "small",
+      "precision": "double",
+      "package": "kokkos-omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 121500,
+      "steps": 420,
+      "samples": [
+        564036.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.58
+    },
+    "tip4p-small-double-cpu-8x1": {
+      "category": "cpu-mpi",
+      "input": "tip4p",
+      "size": "small",
+      "precision": "double",
+      "package": "none",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 121500,
+      "steps": 690,
+      "samples": [
+        940070.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.17
+    },
+    "tip4p-small-double-omp-8x1": {
+      "category": "cpu-mpi",
+      "input": "tip4p",
+      "size": "small",
+      "precision": "double",
+      "package": "omp",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 121500,
+      "steps": 820,
+      "samples": [
+        1126000.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.17
+    },
+    "tip4p-small-double-opt-8x1": {
+      "category": "cpu-mpi",
+      "input": "tip4p",
+      "size": "small",
+      "precision": "double",
+      "package": "opt",
+      "api": "cpu",
+      "flags": "",
+      "ranks": 8,
+      "threads": 1,
+      "gpus": 0,
+      "natoms": 121500,
+      "steps": 740,
+      "samples": [
+        990056.0
+      ],
+      "status": "ok",
+      "other_cpu": 0.17
+    }
+  }
+}

@@ -1,21 +1,21 @@
 {
-  "fetched": "2026-11-13T19:58:50Z",
+  "fetched": "2026-11-14T11:43:14Z",
   "url": "https://docs.lammps.org/",
   "branches": [
     {
       "branch": "develop",
       "url": "https://docs.lammps.org/latest/",
-      "commit": "54ce036d5198a7f54fd924dd04cd299e4af1a4a4",
-      "version": "patch_30Sep2026-1080-g54ce036d51",
-      "built": "2026-11-13T19:26:00Z",
+      "commit": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+      "version": "patch_13Nov2026",
+      "built": "2026-11-14T03:26:09Z",
       "steps": {
         "html": {
           "status": "passed",
-          "seconds": 35
+          "seconds": 44
         },
         "pdf": {
           "status": "passed",
-          "seconds": 132
+          "seconds": 131
         },
         "publish": {
           "status": "passed",
@@ -27,36 +27,36 @@
           "count": 0
         }
       },
-      "checked": "2026-11-13T19:58:50Z",
+      "checked": "2026-11-14T11:43:14Z",
       "head": {
-        "commit": "54ce036d5198a7f54fd924dd04cd299e4af1a4a4",
-        "date": "2026-11-13T17:30:57Z"
+        "commit": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+        "date": "2026-11-14T02:07:54Z"
       }
     },
     {
       "branch": "release",
       "url": "https://docs.lammps.org/",
-      "commit": "0165101ce505734e8fb249694b22e295a7ab4182",
-      "version": "patch_30Sep2026",
-      "built": "2026-09-30T15:03:42Z",
+      "commit": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+      "version": "patch_13Nov2026",
+      "built": "2026-11-14T03:38:03Z",
       "steps": {
         "html": {
           "status": "passed",
-          "seconds": 29
+          "seconds": 36
         },
         "pdf": {
           "status": "passed",
-          "seconds": 125
+          "seconds": 132
         },
         "publish": {
           "status": "passed",
           "seconds": 1
         }
       },
-      "checked": "2026-11-13T19:58:50Z",
+      "checked": "2026-11-14T11:43:14Z",
       "head": {
-        "commit": "0165101ce505734e8fb249694b22e295a7ab4182",
-        "date": "2026-09-30T13:51:55Z"
+        "commit": "68b557e3a2148ea9b31dda5b55800215fb8be677",
+        "date": "2026-11-14T02:07:54Z"
       }
     },
     {
@@ -79,7 +79,7 @@
           "seconds": 2
         }
       },
-      "checked": "2026-11-13T19:58:50Z",
+      "checked": "2026-11-14T11:43:14Z",
       "head": {
         "commit": "098ffdefa525cabc82272925de02e9884f58c657",
         "date": "2026-10-29T23:01:41Z"
