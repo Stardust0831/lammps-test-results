@@ -1,57 +1,50 @@
-# Ingest new test results from lammps/lammps, rebuild the status website,
-# deploy it to GitHub Pages, and update the rolling status issue.
-name: "Update Test Status Site"
+name: Verify SAI report integration
 
 on:
-  schedule:
-    # once a day, at 12:37 UTC (08:37 EDT, 06:37 MDT; an hour earlier on
-    # the clock in winter): after the nightly runs of the test machines,
-    # which mostly finish between 07:00 and 12:00 UTC.
-    - cron: '37 12 * * *'
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [verify/sai-report-e2e-20261114]
 
 permissions:
   contents: write
   pages: write
   id-token: write
-  issues: write
 
 concurrency:
-  group: site-update
+  group: sai-report-verification
   cancel-in-progress: false
 
 jobs:
-  update:
+  verify:
+    if: github.repository == 'Stardust0831/lammps-test-results'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      PR_SHA: c8b71e5aee139ed1374518eb48ce3f456bea143e
     steps:
-      - name: Checkout repository
+      - name: Checkout verification branch
         uses: actions/checkout@v7
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
-      - name: Ingest new results
-        id: ingest
-        if: ${{ github.event_name != 'push' }}
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Verify the PR step is unchanged
         run: |
-          python3 tools/ingest_actions.py --repo lammps/lammps --datadir data
-          python3 tools/fetch_buildbot.py --datadir data
-          python3 tools/fetch_regression.py --datadir data
-          python3 tools/fetch_unittest.py --datadir data
-          python3 tools/fetch_performance.py --datadir data
-          python3 tools/fetch_nightly.py --datadir data
-          python3 tools/fetch_codesize.py --datadir data
-          python3 tools/fetch_pushes.py --repo lammps/lammps --datadir data
-          python3 tools/fetch_coverity.py --output data/external/coverity.json
-          python3 tools/fetch_external.py --datadir data
-          python3 tools/fetch_activity.py --output data/external/activity.json
-          python3 tools/fetch_docs.py --output data/external/docs.json
+          python3 - <<'PYCODE'
+          import os, subprocess
+          from pathlib import Path
+          def step(text):
+              start = text.index('      - name: Ingest SAI test results\n')
+              end = text.index('\n      - name:', start + 1)
+              return text[start:end].rstrip()
+          candidate = subprocess.check_output(['git', 'show', os.environ['PR_SHA'] + ':.github/workflows/update.yml'], text=True)
+          assert step(candidate) == step(Path('.github/workflows/update.yml').read_text())
+          subprocess.run(['git', 'diff', '--exit-code', os.environ['PR_SHA'], 'HEAD', '--', 'tools', 'generator'], check=True)
+          print('Exact PR ingestion step and unchanged upstream tools verified')
+          PYCODE
 
       - name: Ingest SAI test results
         if: ${{ github.event_name != 'push' && vars.SAI_TEST_REPORT_URL != '' }}
@@ -62,58 +55,77 @@ jobs:
                  --url "${SAI_TEST_REPORT_URL%/}/junit.xml" \
                  --summary-url "${SAI_TEST_REPORT_URL%/}/summary.json"
 
-      - name: Ingest core developer activity
-        if: ${{ github.event_name != 'push' }}
+      - name: Verify imported results and duplicate suppression
+        if: ${{ github.event_name != 'push' && vars.SAI_TEST_REPORT_URL != '' }}
         env:
-          GH_TOKEN: ${{ secrets.TEAM_TOKEN || secrets.ISSUE_TOKEN || github.token }}
+          SAI_TEST_REPORT_URL: ${{ vars.SAI_TEST_REPORT_URL }}
         run: |
-          python3 tools/fetch_team.py --repo lammps/lammps --org lammps \
-                 --team core --output data/external/team.json
+          python3 - <<'PYCODE'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          root = Path('data/unit-tests/sai-mpi-gpu-regression')
+          paths = sorted(root.glob('*/run.json'))
+          assert paths, 'No SAI result archived'
+          latest = json.loads(paths[-1].read_text())
+          counts = latest['metadata']['counts']
+          assert counts['tests'] == counts['passed'] == 19, counts
+          before = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
+          url = os.environ['SAI_TEST_REPORT_URL'].rstrip('/')
+          repeat = subprocess.run(['python3', 'tools/fetch_unittest.py', '--datadir', 'data', '--config', 'sai-mpi-gpu-regression', '--url', url + '/junit.xml', '--summary-url', url + '/summary.json'], text=True, capture_output=True, check=True)
+          print(repeat.stdout + repeat.stderr)
+          assert 'ingested 0 new unit test run(s)' in repeat.stdout
+          after = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in root.glob('*/run.json')}
+          assert before == after
+          evidence = {'pr_sha': os.environ['PR_SHA'], 'workflow_run': os.environ['GITHUB_RUN_ID'], 'source_sha': latest['metadata']['sha'], 'counts': counts, 'duplicate_import': 'no additional archive', 'import_step_matches_pr': True}
+          Path('sai-e2e-verification.json').write_text(json.dumps(evidence, indent=2) + '\n')
+          print(json.dumps(evidence, indent=2))
+          PYCODE
 
-      - name: Commit new data
+      - name: Commit new data to the verification branch
         if: ${{ github.event_name != 'push' }}
         run: |
-          if [ -n "$(git status --porcelain data)" ]
-          then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
             git add data
-            git commit -m "ingest new test results"
+            git commit -m 'Archive SAI report for integration verification'
             git push
           fi
 
       - name: Build website
         run: python3 generator/build_site.py --datadir data --outdir _site
 
+      - name: Verify generated SAI row
+        if: ${{ github.event_name != 'push' && vars.SAI_TEST_REPORT_URL != '' }}
+        run: |
+          python3 - <<'PYCODE'
+          import json, shutil
+          from pathlib import Path
+          evidence = json.loads(Path('sai-e2e-verification.json').read_text())
+          summary = json.loads(Path('_site/api/summary.json').read_text())
+          row = next(s for s in summary['suites'] if s['suite'] == 'unit-tests/sai-mpi-gpu-regression')
+          assert row['sha'] == evidence['source_sha']
+          assert row['counts']['passed'] == row['counts']['tests'] == 19
+          assert 'sai-mpi-gpu-regression' in Path('_site/index.html').read_text()
+          shutil.copyfile('sai-e2e-verification.json', '_site/sai-e2e-verification.json')
+          print('Published JSON and HTML contain the accepted SAI result')
+          PYCODE
+
+      - name: Preview status issue without posting
+        run: |
+          python3 tools/update_issue.py --repo Stardust0831/lammps-test-results --site-url https://stardust0831.github.io/lammps-test-results/ --datadir data --dry-run > _site/sai-e2e-status.txt
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
-      # the artifact name includes the attempt number so that re-running a
-      # failed deployment does not trip deploy-pages over duplicate artifacts
       - name: Upload site
         uses: actions/upload-pages-artifact@v5
         with:
-          name: github-pages-${{ github.run_attempt }}
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
         with:
-          artifact_name: github-pages-${{ github.run_attempt }}
-
-      # updating an issue in another repository (e.g. lammps/lammps 5071 as set
-      # in the STATUS_ISSUE_REPO / STATUS_ISSUE_NUMBER repository variables)
-      # needs a token with issue write permission there in the ISSUE_TOKEN secret;
-      # tolerate failure so a missing secret does not fail the whole update
-      - name: Update status issue
-        if: ${{ github.event_name != 'push' }}
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.ISSUE_TOKEN || github.token }}
-        run: |
-          python3 tools/update_issue.py \
-                 --repo "${{ vars.STATUS_ISSUE_REPO || github.repository }}" \
-                 --issue "${{ vars.STATUS_ISSUE_NUMBER || 0 }}" \
-                 --site-url "${{ steps.deployment.outputs.page_url }}" \
-                 --datadir data
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
